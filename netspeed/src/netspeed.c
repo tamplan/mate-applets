@@ -1266,11 +1266,11 @@ showinfo_cb(GtkAction *action, gpointer data)
 static const GtkActionEntry mate_netspeed_applet_menu_actions [] = {
 		{ "MateNetspeedAppletDetails", "dialog-information", N_("Device _Details"),
 		  NULL, NULL, G_CALLBACK (showinfo_cb) },
-		{ "MateNetspeedAppletProperties", "document-properties", N_("Preferences..."),
+		{ "MateNetspeedAppletProperties", "document-properties", N_("_Preferences"),
 		  NULL, NULL, G_CALLBACK (settings_cb) },
-		{ "MateNetspeedAppletHelp", "help-browser", N_("Help"),
+		{ "MateNetspeedAppletHelp", "help-browser", N_("_Help"),
 		  NULL, NULL, G_CALLBACK (help_cb) },
-		{ "MateNetspeedAppletAbout", "help-about", N_("About..."),
+		{ "MateNetspeedAppletAbout", "help-about", N_("_About"),
 		  NULL, NULL, G_CALLBACK (about_cb) }
 };
 

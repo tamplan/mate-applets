@@ -2,35 +2,35 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-applets package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Yogesh K S <yogesh@karnatakaeducation.org.in>, 2018
 # Martin Wimpress <code@flexion.org>, 2018
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # karthik holla <karthikholla87@gmail.com>, 2018
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-applets 1.23.0\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/mate/MATE/\n"
-"POT-Creation-Date: 2020-01-10 17:58+0100\n"
+"POT-Creation-Date: 2020-06-21 14:01+0200\n"
 "PO-Revision-Date: 2018-03-11 16:20+0000\n"
 "Last-Translator: karthik holla <karthikholla87@gmail.com>, 2018\n"
 "Language-Team: Kannada (https://www.transifex.com/mate/teams/13566/kn/)\n"
+"Language: kn\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: kn\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 
-#: accessx-status/applet.c:86 charpick/charpick.c:571 geyes/geyes.c:166
+#: accessx-status/applet.c:86 charpick/charpick.c:570 geyes/geyes.c:166
 #: mateweather/mateweather-about.c:41 multiload/main.c:48
 #: stickynotes/stickynotes_applet_callbacks.c:367
 msgid "Sun GNOME Documentation Team <gdocteam@sun.com>"
 msgstr ""
 
 #: accessx-status/applet.c:87 battstat/battstat_applet.c:819
-#: charpick/charpick.c:572 cpufreq/src/cpufreq-applet.c:466
+#: charpick/charpick.c:571 cpufreq/src/cpufreq-applet.c:448
 #: drivemount/drivemount.c:109 geyes/geyes.c:167
 #: mateweather/mateweather-about.c:43 multiload/main.c:49
 #: stickynotes/stickynotes_applet_callbacks.c:368
@@ -53,10 +53,10 @@ msgid ""
 msgstr ""
 
 #: accessx-status/applet.c:105 battstat/battstat_applet.c:844
-#: charpick/charpick.c:592 command/command.c:128
-#: cpufreq/src/cpufreq-applet.c:490 drivemount/drivemount.c:127
+#: charpick/charpick.c:591 command/command.c:131
+#: cpufreq/src/cpufreq-applet.c:472 drivemount/drivemount.c:127
 #: geyes/geyes.c:186 mateweather/mateweather-about.c:61 multiload/main.c:69
-#: netspeed/src/netspeed.c:829 stickynotes/stickynotes_applet_callbacks.c:388
+#: netspeed/src/netspeed.c:821 stickynotes/stickynotes_applet_callbacks.c:388
 #: timerapplet/timerapplet.c:278 trashapplet/src/trashapplet.c:442
 msgid "translator-credits"
 msgstr ""
@@ -74,62 +74,64 @@ msgstr ""
 #: accessx-status/applet.c:167
 #, c-format
 msgid "There was an error launching the keyboard preferences dialog: %s"
-msgstr ""
-"ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳ ಸಂವಾದ ಪೆಟ್ಟಿಗೆಯಯನ್ನು ಆರಂಭಿಸುವಾಗ ಒಂದು ದೋಷವು ಎದುರಾಗಿದೆ: %s"
+msgstr "ಕೀಲಿಮಣೆ ಆದ್ಯತೆಗಳ ಸಂವಾದ ಪೆಟ್ಟಿಗೆಯಯನ್ನು ಆರಂಭಿಸುವಾಗ ಒಂದು ದೋಷವು ಎದುರಾಗಿದೆ: %s"
 
 #: accessx-status/applet.c:182
 msgid "_Keyboard Accessibility Preferences"
 msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ ಆದ್ಯತೆಗಳು(_K)"
 
 #: accessx-status/applet.c:183 battstat/battstat_applet.c:63
-#: charpick/charpick.c:673 cpufreq/src/cpufreq-applet.c:119
+#: charpick/charpick.c:668 cpufreq/src/cpufreq-applet.c:119
 #: drivemount/drivemount.c:165 geyes/geyes.c:359
-#: mateweather/mateweather-applet.c:117 multiload/main.c:488
+#: mateweather/mateweather-applet.c:117 multiload/main.c:485
+#: netspeed/src/netspeed.c:1271 netspeed/src/netspeed-preferences.ui:33
+#: stickynotes/sticky-notes-preferences.ui:51
+#: stickynotes/sticky-notes-properties.ui:37
 #: stickynotes/stickynotes_applet.c:46 trashapplet/src/trashapplet.c:74
 msgid "_Help"
 msgstr "ನೆರವು(_H)"
 
 #: accessx-status/applet.c:184 battstat/battstat_applet.c:66
-#: charpick/charpick.c:676 command/command.c:84
+#: charpick/charpick.c:671 command/command.c:87
 #: cpufreq/src/cpufreq-applet.c:122 drivemount/drivemount.c:168
-#: geyes/geyes.c:362 mateweather/mateweather-applet.c:120 multiload/main.c:491
-#: stickynotes/stickynotes_applet.c:49 timerapplet/timerapplet.c:84
-#: trashapplet/src/trashapplet.c:77
+#: geyes/geyes.c:362 mateweather/mateweather-applet.c:120 multiload/main.c:488
+#: netspeed/src/netspeed.c:1273 stickynotes/stickynotes_applet.c:49
+#: timerapplet/timerapplet.c:84 trashapplet/src/trashapplet.c:77
 msgid "_About"
 msgstr "ಇದರ ಬಗ್ಗೆ(_A)"
 
-#: accessx-status/applet.c:504 accessx-status/applet.c:558
+#: accessx-status/applet.c:503 accessx-status/applet.c:557
 msgid "a"
 msgstr "a"
 
-#: accessx-status/applet.c:1043 accessx-status/applet.c:1109
-#: accessx-status/applet.c:1194 accessx-status/applet.c:1388
+#: accessx-status/applet.c:1042 accessx-status/applet.c:1108
+#: accessx-status/applet.c:1193 accessx-status/applet.c:1387
 msgid "AccessX Status"
 msgstr "AccessX ನ ಸ್ಥಿತಿ"
 
-#: accessx-status/applet.c:1044 accessx-status/applet.c:1195
+#: accessx-status/applet.c:1043 accessx-status/applet.c:1194
 msgid "Shows keyboard status when accessibility features are used."
 msgstr "ನಿಲುಕಣೆ ವೈಶಿಷ್ಟವನ್ನು ಬಳಸುವಾಗ ಕೀಲಿಮಣೆ ಸ್ಥಿತಿಯನ್ನು ತೋರಿಸುತ್ತದೆ."
 
-#: accessx-status/applet.c:1078
+#: accessx-status/applet.c:1077
 msgid "XKB Extension is not enabled"
 msgstr "XKB ವಿಸ್ತರಣೆಯು ಶಕ್ತಗೊಂಡಿಲ್ಲ"
 
-#: accessx-status/applet.c:1083
+#: accessx-status/applet.c:1082
 msgid "Unknown error"
 msgstr "ಅಜ್ಞಾತ ದೋಷ"
 
-#: accessx-status/applet.c:1087
+#: accessx-status/applet.c:1086
 #, c-format
 msgid "Error: %s"
 msgstr "ದೋಷ: %s"
 
-#: accessx-status/applet.c:1385
+#: accessx-status/applet.c:1384
 #: accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:9
 msgid "Keyboard Accessibility Status"
 msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ ಸ್ಥಿತಿ"
 
-#: accessx-status/applet.c:1389
+#: accessx-status/applet.c:1388
 msgid "Displays current state of keyboard accessibility features"
 msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆಯ ವೈಶಿಷ್ಟ್ಯದ ಪ್ರಸಕ್ತ ಸ್ಥಿತಿಯನ್ನು ತೋರಿಸುತ್ತದೆ"
 
@@ -145,16 +147,16 @@ msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆ ಸ್ಥಿತಿಯ ಆಪ
 msgid "Shows the status of keyboard accessibility features"
 msgstr "ಕೀಲಿಮಣೆ ನಿಲುಕಣೆಯ ವೈಶಿಷ್ಟ್ಯವನ್ನು ತೋರಿಸುತ್ತದೆ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:12
 msgid "preferences-desktop-accessibility"
 msgstr ""
 
-#: battstat/battstat_applet.c:60 charpick/charpick.c:670 command/command.c:83
+#: battstat/battstat_applet.c:60 charpick/charpick.c:665 command/command.c:86
 #: cpufreq/src/cpufreq-applet.c:116 geyes/geyes.c:356
-#: mateweather/mateweather-applet.c:114 multiload/main.c:482
-#: stickynotes/stickynotes_applet.c:43 timerapplet/timerapplet.c:83
+#: mateweather/mateweather-applet.c:114 multiload/main.c:479
+#: netspeed/src/netspeed.c:1269 stickynotes/stickynotes_applet.c:43
+#: timerapplet/timerapplet.c:83
 msgid "_Preferences"
 msgstr "ಆದ್ಯತೆಗಳು(_P)"
 
@@ -295,9 +297,9 @@ msgstr "ಬ್ಯಾಟರಿಯ ಸ್ಥಿತಿಯು ಗೊತ್ತಿಲ�
 msgid "N/A"
 msgstr "N/A"
 
-#: battstat/battstat_applet.c:783 drivemount/drivemount.c:153
-#: geyes/geyes.c:344 geyes/themes.c:223 mateweather/mateweather-applet.c:63
-#: mateweather/mateweather-pref.c:747
+#: battstat/battstat_applet.c:783 drivemount/drivemount.c:153 geyes/geyes.c:344
+#: geyes/themes.c:223 mateweather/mateweather-applet.c:63
+#: mateweather/mateweather-pref.c:745
 #: stickynotes/stickynotes_applet_callbacks.c:345
 #: stickynotes/stickynotes_applet_callbacks.c:540
 #: trashapplet/src/trashapplet.c:399
@@ -362,8 +364,7 @@ msgstr "ಬಾಕಿ ಇರುವ ಪ್ರತಿಶತವನ್ನು ತೋರ
 msgid "Notifications"
 msgstr "ಸೂಚನೆಗಳು"
 
-#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
-#. drops to: [XX] percent/minutes remaining'
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge drops to: [XX] percent/minutes remaining'
 #: battstat/battstat_applet.ui:206
 msgid "_Warn when battery charge drops to:"
 msgstr "ಬ್ಯಾಟರಿಯ ಚಾರ್ಜ್ ಈ ಹಂತಕ್ಕೆ ಇಳಿದಾಗ ಎಚ್ಚರಿಸು(_W):"
@@ -377,8 +378,7 @@ msgstr "ಬ್ಯಾಟರಿಯು ಸಂಪೂರ್ಣವಾಗಿ ಚಾರ�
 msgid "Battstat Factory"
 msgstr "ಬ್ಯಾಟ್‍ಸ್ಟ್ಯಾಟ್ ಫ್ಯಾಕ್ಟರಿ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:12
 msgid "battery"
 msgstr ""
@@ -392,8 +392,8 @@ msgid ""
 "The battery level below which the battery is displayed as red. Also the "
 "value at which the low battery warning is displayed."
 msgstr ""
-"ಬ್ಯಾಟರಿಯ ಮಟ್ಟವು ಇದಕ್ಕಿಂತ ಕೆಳಕ್ಕಿದ್ದಲ್ಲಿ ಕೆಂಪಗೆ ತೋರಿಸುತ್ತದೆ. ಅಲ್ಲದೆ ಈ "
-"ಬ್ಯಾಟರಿಯ ಮಟ್ಟದಲ್ಲಿ ಬ್ಯಾಟರಿ ಕಡಿಮೆ ಇದೆ ಎಂಬ ಎಚ್ಚರಿಕೆಯನ್ನು ಸೂಚಿಸಲಾಗುತ್ತದೆ."
+"ಬ್ಯಾಟರಿಯ ಮಟ್ಟವು ಇದಕ್ಕಿಂತ ಕೆಳಕ್ಕಿದ್ದಲ್ಲಿ ಕೆಂಪಗೆ ತೋರಿಸುತ್ತದೆ. ಅಲ್ಲದೆ ಈ ಬ್ಯಾಟರಿಯ ಮಟ್ಟದಲ್ಲಿ "
+"ಬ್ಯಾಟರಿ ಕಡಿಮೆ ಇದೆ ಎಂಬ ಎಚ್ಚರಿಕೆಯನ್ನು ಸೂಚಿಸಲಾಗುತ್ತದೆ."
 
 #: battstat/org.mate.panel.applet.battstat.gschema.xml.in:10
 msgid "Warn on low time rather than low percentage"
@@ -404,8 +404,8 @@ msgid ""
 "Use the value defined in red_value as a time remaining to show the warning "
 "dialog rather than a percentage."
 msgstr ""
-"ಎಚ್ಚರಿಕೆ ಸಂವಾದವನ್ನು ತೋರಿಸಲು ಪ್ರತಿಶತದ ಬದಲು red_value ನಲ್ಲಿ ಸೂಚಿಸಲಾದ "
-"ಮೌಲ್ಯವನ್ನು ಉಪಯೋಗಿಸಿ."
+"ಎಚ್ಚರಿಕೆ ಸಂವಾದವನ್ನು ತೋರಿಸಲು ಪ್ರತಿಶತದ ಬದಲು red_value ನಲ್ಲಿ ಸೂಚಿಸಲಾದ ಮೌಲ್ಯವನ್ನು "
+"ಉಪಯೋಗಿಸಿ."
 
 #: battstat/org.mate.panel.applet.battstat.gschema.xml.in:15
 msgid "Low Battery Notification"
@@ -438,8 +438,7 @@ msgstr "ಸಮಯ/ಪ್ರತಿಶತ ಲೇಬಲನ್ನು ತೋರಿಸ
 #: battstat/org.mate.panel.applet.battstat.gschema.xml.in:31
 msgid "0 for no label, 1 for percentage and 2 for time remaining."
 msgstr ""
-"0 ಯು ಲೇಬಲ್ ಇಲ್ಲದಿರುವುದನ್ನು, 1 ಪ್ರತಿಶತವನ್ನು ಹಾಗು 2 ಬಾಕಿ ಇರುವ ಸಮಯವನ್ನು "
-"ಸೂಚಿಸುತ್ತದೆ."
+"0 ಯು ಲೇಬಲ್ ಇಲ್ಲದಿರುವುದನ್ನು, 1 ಪ್ರತಿಶತವನ್ನು ಹಾಗು 2 ಬಾಕಿ ಇರುವ ಸಮಯವನ್ನು ಸೂಚಿಸುತ್ತದೆ."
 
 #: battstat/properties.c:237
 msgid "Percent"
@@ -453,49 +452,50 @@ msgstr "ಮಿಕ್ಕುಳಿದಿರುವ ನಿಮಿಷಗಳು"
 msgid "Battery Status Utility"
 msgstr "ಬ್ಯಾಟರಿ ಸ್ಥಿತಿಯ ಸೌಲಭ್ಯ"
 
-#: charpick/charpick.c:404
+#: charpick/charpick.c:403
 msgid "Available palettes"
 msgstr "ಲಭ್ಯವಿರುವ ಫಲಕಗ‍ಗಳು"
 
-#: charpick/charpick.c:453
+#: charpick/charpick.c:452
 #, c-format
 msgid "Insert \"%s\""
 msgstr "\"%s\" ಅನ್ನು ಸೇರಿಸು"
 
-#: charpick/charpick.c:456
+#: charpick/charpick.c:455
 msgid "Insert special character"
 msgstr "ವಿಶೇಷ ಅಕ್ಷರವನ್ನು ಸೇರಿಸು"
 
-#: charpick/charpick.c:460
+#: charpick/charpick.c:459
 #, c-format
 msgid "insert special character %s"
 msgstr "%s ವಿಶೇಷ ಅಕ್ಷರವನ್ನು ಸೇರಿಸು"
 
-#: charpick/charpick.c:583
+#: charpick/charpick.c:582
 msgid "About Character Palette"
 msgstr ""
 
-#: charpick/charpick.c:585
+#: charpick/charpick.c:584
 msgid ""
 "Copyright © 1998, 2004-2005 GNOME Applets Maintainers and others\n"
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: charpick/charpick.c:587
+#: charpick/charpick.c:586
+#, fuzzy
 msgid ""
-"Mate Panel applet for selecting strange characters that are not on my "
+"MATE Panel applet for selecting strange characters that are not on the "
 "keyboard. Released under GNU General Public Licence."
 msgstr ""
 "Mate Panel applet for selecting strange characters that are not on my "
 "keyboard. Released under GNU General Public Licence."
 
-#: charpick/charpick.c:699 charpick/charpick.c:713
+#: charpick/charpick.c:694 charpick/charpick.c:708
 #: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:9
 #: charpick/properties.c:451
 msgid "Character Palette"
 msgstr "ಅಕ್ಷರ ಫಲಕ"
 
-#: charpick/charpick.c:699
+#: charpick/charpick.c:694
 #: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:10
 msgid "Insert characters"
 msgstr "ಅಕ್ಷರಗಳನ್ನು ಸೇರಿಸು"
@@ -505,8 +505,7 @@ msgstr "ಅಕ್ಷರಗಳನ್ನು ಸೇರಿಸು"
 msgid "Charpicker Applet Factory"
 msgstr "ಕ್ಯಾರ್ಪಿಕ್ಕರ್ ಆಪ್ಲೆಟ್ ಫ್ಯಾಕ್ಟರಿ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:12
 msgid "accessories-character-map"
 msgstr ""
@@ -520,8 +519,8 @@ msgid ""
 "The string that the user had selected when the applet was last used. This "
 "string will be displayed when the user starts the applet."
 msgstr ""
-"ಆಪ್ಲೆಟ್‌ ಅನ್ನು ಕೊನೆಯ ಬಾರಿಗೆ ಬಳಸಿದಾಗ ಬಳಕೆದಾರರು ಆಯ್ಕೆ ಮಾಡಿದ ವಾಕ್ಯ. ಬಳಕೆದಾರರು "
-"ಆಪ್ಲೆಟ್‌ ಅನ್ನು ಆರಂಭಿಸಿದಾಗ ಈ ವಾಕ್ಯವನ್ನು ತೋರಿಸಲಾಗುವುದು."
+"ಆಪ್ಲೆಟ್‌ ಅನ್ನು ಕೊನೆಯ ಬಾರಿಗೆ ಬಳಸಿದಾಗ ಬಳಕೆದಾರರು ಆಯ್ಕೆ ಮಾಡಿದ ವಾಕ್ಯ. ಬಳಕೆದಾರರು ಆಪ್ಲೆಟ್‌ "
+"ಅನ್ನು ಆರಂಭಿಸಿದಾಗ ಈ ವಾಕ್ಯವನ್ನು ತೋರಿಸಲಾಗುವುದು."
 
 #: charpick/org.mate.panel.applet.charpick.gschema.xml.in:10
 #: charpick/properties.c:378
@@ -592,46 +591,52 @@ msgstr "ಆರಿಸಲಾದ ಫಲಕವನ್ನು ಅಳಿಸಲು ಕ್
 msgid "Character Palette Preferences"
 msgstr "ಅಕ್ಷರ ಫಲಕದ ಆದ್ಯತೆಗಳು"
 
-#: command/command.c:122
+#: command/command.c:125
 msgid "About Command Applet"
 msgstr ""
 
-#: command/command.c:124
+#: command/command.c:127
 msgid ""
 "Copyright © 2013-2014 Stefano Karapetsas\n"
 "Copyright © 2015-2020 MATE developers"
 msgstr ""
 
-#: command/command.c:127
+#: command/command.c:130
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:10
 msgid "Shows the output of a command"
 msgstr ""
 
-#: command/command.c:194
+#: command/command.c:408
+msgid "Command Applet"
+msgstr ""
+
+#: command/command-preferences.ui:25
 msgid "Command Applet Preferences"
 msgstr ""
 
-#: command/command.c:207
-msgid "Command:"
+#: command/command-preferences.ui:39 netspeed/src/netspeed-preferences.ui:49
+#: stickynotes/sticky-notes-preferences.ui:68
+#: stickynotes/sticky-notes-properties.ui:54
+msgid "_Close"
 msgstr ""
 
-#: command/command.c:215
-msgid "Interval (seconds):"
+#: command/command-preferences.ui:77
+#, fuzzy
+msgid "C_ommand:"
+msgstr "ಆಜ್ಞೆ"
+
+#: command/command-preferences.ui:91
+msgid "_Interval (seconds):"
 msgstr ""
 
-#: command/command.c:223
-msgid "Maximum width (chars):"
+#: command/command-preferences.ui:105
+msgid "Maximum _width (chars):"
 msgstr ""
 
-#: command/command.c:231
-#: command/org.mate.panel.applet.command.gschema.xml.in:20
-#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
-msgid "Show icon"
+#: command/command-preferences.ui:161
+#, fuzzy
+msgid "_Show icon"
 msgstr "ಚಿಹ್ನಯನ್ನು ತೋರಿಸು"
-
-#: command/command.c:443
-msgid "Command Applet"
-msgstr ""
 
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:5
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:6
@@ -642,8 +647,7 @@ msgstr ""
 msgid "Command"
 msgstr "ಆಜ್ಞೆ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:12
 msgid "utilities-terminal"
 msgstr ""
@@ -671,6 +675,11 @@ msgstr ""
 #: command/org.mate.panel.applet.command.gschema.xml.in:16
 msgid "Number of characters to display"
 msgstr ""
+
+#: command/org.mate.panel.applet.command.gschema.xml.in:20
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
+msgid "Show icon"
+msgstr "ಚಿಹ್ನಯನ್ನು ತೋರಿಸು"
 
 #: command/org.mate.panel.applet.command.gschema.xml.in:21
 msgid "If applet icon is shown or not"
@@ -710,7 +719,7 @@ msgstr "CPU ಫ್ರೀಕ್ವೆನ್ಸಿಯನ್ನು ಪ್ರತಿ�
 
 #: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:5
 #: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:9
-#: cpufreq/src/cpufreq-applet.c:813 cpufreq/src/cpufreq-applet.c:868
+#: cpufreq/src/cpufreq-applet.c:794 cpufreq/src/cpufreq-applet.c:849
 msgid "CPU Frequency Scaling Monitor"
 msgstr "CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಮೇಲ್ವಿಚಾರಕ"
 
@@ -719,8 +728,7 @@ msgstr "CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಮ
 msgid "Monitor the CPU Frequency Scaling"
 msgstr "CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಅನ್ನು ನೋಡಿಕೊಳ್ಳುತ್ತದೆ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-cpu-frequency-applet"
 msgstr ""
@@ -734,8 +742,8 @@ msgid ""
 "Set the CPU to monitor. In a single processor system you don't have to "
 "change it."
 msgstr ""
-"CPU ಅನ್ನು ಮೇಲ್ವಿಚಾರಣೆಗೆ ಹೊಂದಿಸಿ. ಒಂದೆ ಸಂಸ್ಕಾರಕವನ್ನು ಹೊಂದಿರುವ ಗಣಕದಲ್ಲಿ ನೀವು "
-"ಅದನ್ನು ಬದಲಾಯಿಸುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ."
+"CPU ಅನ್ನು ಮೇಲ್ವಿಚಾರಣೆಗೆ ಹೊಂದಿಸಿ. ಒಂದೆ ಸಂಸ್ಕಾರಕವನ್ನು ಹೊಂದಿರುವ ಗಣಕದಲ್ಲಿ ನೀವು ಅದನ್ನು "
+"ಬದಲಾಯಿಸುವ ಅಗತ್ಯವಿರುವುದಿಲ್ಲ."
 
 #: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:11
 msgid "Mode to show CPU usage"
@@ -744,12 +752,12 @@ msgstr ""
 #: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:12
 msgid ""
 "A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
-"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
-" graphic and text mode."
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in "
+"graphic and text mode."
 msgstr ""
-"0 ಮೌಲ್ಯವೆಂದರೆ ಅಪ್ಲೆಟ್‌ ಅನ್ನು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ಕ್ರಮದಲ್ಲಿ(ಪಿಕ್ಸ್‌ಮ್ಯಾಪ್ ಮಾತ್ರ),"
-" 1 ಎಂದರೆ ಪಠ್ಯ ಕ್ರಮದಲ್ಲಿ (ಪಿಕ್ಸ್‌ಮ್ಯಾಪ್ ಅನ್ನು ತೋರಿಸದೆ ಇರಲು) ಹಾಗು 2 ಎಂದರೆ "
-"ಅಪ್ಲೆಟ್ ಅನ್ನು ಚಿತ್ರಾತ್ಮಕ ಹಾಗು ಪಠ್ಯ ಕ್ರಮದಲ್ಲಿ ತೋರಿಸು ಎಂದರ್ಥ."
+"0 ಮೌಲ್ಯವೆಂದರೆ ಅಪ್ಲೆಟ್‌ ಅನ್ನು ಒಂದು ಚಿತ್ರಾತ್ಮಕ ಕ್ರಮದಲ್ಲಿ(ಪಿಕ್ಸ್‌ಮ್ಯಾಪ್ ಮಾತ್ರ), 1 ಎಂದರೆ ಪಠ್ಯ "
+"ಕ್ರಮದಲ್ಲಿ (ಪಿಕ್ಸ್‌ಮ್ಯಾಪ್ ಅನ್ನು ತೋರಿಸದೆ ಇರಲು) ಹಾಗು 2 ಎಂದರೆ ಅಪ್ಲೆಟ್ ಅನ್ನು ಚಿತ್ರಾತ್ಮಕ ಹಾಗು "
+"ಪಠ್ಯ ಕ್ರಮದಲ್ಲಿ ತೋರಿಸು ಎಂದರ್ಥ."
 
 #: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:16
 msgid "The type of text to display (if the text is enabled)."
@@ -761,25 +769,25 @@ msgid ""
 "to show percentage instead of frequency."
 msgstr ""
 
-#: cpufreq/src/cpufreq-applet.c:449 cpufreq/src/cpufreq-prefs.c:358
+#: cpufreq/src/cpufreq-applet.c:431 cpufreq/src/cpufreq-prefs.c:358
 msgid "Could not open help document"
 msgstr "ಸಹಾಯ ದಸ್ತಾವೇಜನ್ನು ತೆರೆಯಲಾಗಿಲ್ಲ"
 
-#: cpufreq/src/cpufreq-applet.c:481
+#: cpufreq/src/cpufreq-applet.c:463
 msgid "About CPU Frequency Scaling Monitor"
 msgstr ""
 
-#: cpufreq/src/cpufreq-applet.c:483
+#: cpufreq/src/cpufreq-applet.c:465
 msgid ""
 "Copyright © 2004 Carlos Garcia Campos\n"
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: cpufreq/src/cpufreq-applet.c:485
+#: cpufreq/src/cpufreq-applet.c:467
 msgid "This utility shows the current CPU Frequency Scaling."
 msgstr "ಈ ಸವಲತ್ತು ಈಗಿನ CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಅನ್ನು ತೋರಿಸುತ್ತದೆ."
 
-#: cpufreq/src/cpufreq-applet.c:869
+#: cpufreq/src/cpufreq-applet.c:850
 msgid "This utility shows the current CPU Frequency"
 msgstr "ಈ ಸವಲತ್ತು ಈಗಿನ CPU ಫ್ರೀಕ್ವೆನ್ಸಿಯನ್ನು ತೋರಿಸುತ್ತದೆ"
 
@@ -808,9 +816,8 @@ msgid ""
 "You will not be able to modify the frequency of your machine.  Your machine "
 "may be misconfigured or not have hardware support for CPU frequency scaling."
 msgstr ""
-"ನೀವು ನಿಮ್ಮ ಗಣಕದ ಫ್ರೀಕ್ವೆನ್ಸಿಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ. ನಿಮ್ಮ ಗಣಕವನ್ನು"
-" ತಪ್ಪಾಗಿ ಸಂರಚಿಸಲಾಗಿರಬಹುದು ಅಥವ CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್‌ಗೆ ಯಂತ್ರಾಂಶ "
-"ಬೆಂಬಲವನ್ನು ಹೊಂದಿಲ್ಲ."
+"ನೀವು ನಿಮ್ಮ ಗಣಕದ ಫ್ರೀಕ್ವೆನ್ಸಿಯನ್ನು ಬದಲಾಯಿಸಲು ಸಾಧ್ಯವಿರುವುದಿಲ್ಲ. ನಿಮ್ಮ ಗಣಕವನ್ನು ತಪ್ಪಾಗಿ "
+"ಸಂರಚಿಸಲಾಗಿರಬಹುದು ಅಥವ CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್‌ಗೆ ಯಂತ್ರಾಂಶ ಬೆಂಬಲವನ್ನು ಹೊಂದಿಲ್ಲ."
 
 #: cpufreq/src/cpufreq-selector/org.mate.cpufreqselector.policy.in:14
 msgid "Change CPU Frequency scaling"
@@ -820,42 +827,47 @@ msgstr "CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಅ
 msgid "Privileges are required to change the CPU Frequency scaling."
 msgstr "CPU ಫ್ರೀಕ್ವೆನ್ಸಿ ಸ್ಕೇಲಿಂಗ್ ಅನ್ನು ಬದಲಾಯಿಸಲು ಸವಲತ್ತುಗಳ ಅಗತ್ಯವಿದೆ."
 
-#: drivemount/drive-button.c:340 drivemount/drive-button.c:354
+#: drivemount/drive-button.c:277
+#, fuzzy
+msgid "nothing to mount"
+msgstr "(ಆರೋಹಿಸಲಾಗಿರದ)"
+
+#: drivemount/drive-button.c:310 drivemount/drive-button.c:324
 msgid "(mounted)"
 msgstr "(ಆರೋಹಿಸಲಾಗಿದೆ)"
 
-#: drivemount/drive-button.c:347
+#: drivemount/drive-button.c:317
 msgid "(not mounted)"
 msgstr "(ಆರೋಹಿಸಲಾಗಿರದ)"
 
-#: drivemount/drive-button.c:619
+#: drivemount/drive-button.c:589
 msgid "Cannot execute Caja"
 msgstr ""
 
-#: drivemount/drive-button.c:943
+#: drivemount/drive-button.c:913
 msgid "_Play DVD"
 msgstr "DVDಯನ್ನು ಪ್ಲೇ ಮಾಡ್ (_P)"
 
-#: drivemount/drive-button.c:947
+#: drivemount/drive-button.c:917
 msgid "_Play CD"
 msgstr "CDಯನ್ನು ಪ್ಲೇ ಮಾಡ್ (_P)"
 
-#: drivemount/drive-button.c:950
+#: drivemount/drive-button.c:920
 #, c-format
 msgid "_Open %s"
 msgstr "%s ಅನ್ನು ತೆರೆ(_O)"
 
-#: drivemount/drive-button.c:958
+#: drivemount/drive-button.c:928
 #, c-format
 msgid "Un_mount %s"
 msgstr "%s ಅನ್ನು ಅವರೋಹಿಸು(_m)"
 
-#: drivemount/drive-button.c:964
+#: drivemount/drive-button.c:934
 #, c-format
 msgid "_Mount %s"
 msgstr "%s ಅನ್ನು ಆರೋಹಿಸು(_M)"
 
-#: drivemount/drive-button.c:972
+#: drivemount/drive-button.c:942
 #, c-format
 msgid "_Eject %s"
 msgstr "%s ಅನ್ನು ಹೊರತಳ್ಳು (_E)"
@@ -874,7 +886,7 @@ msgstr ""
 msgid "Applet for mounting and unmounting block volumes."
 msgstr "ಖಂಡ ಪರಿಮಾಣಗಳನ್ನು ಆರೋಹಿಸಲು ಹಾಗು ಅವರೋಹಿಸಲು ಸಲುವಾಗಿನ ಆಪ್ಲೆಟ್‌."
 
-#: drivemount/drivemount.c:185 drivemount/drivemount.c:225
+#: drivemount/drivemount.c:185 drivemount/drivemount.c:220
 #: drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:9
 msgid "Disk Mounter"
 msgstr "ಡಿಸ್ಕ್‍ ಆರೋಹಕ"
@@ -891,8 +903,7 @@ msgstr "ಡ್ರೈವ್ ಆರೋಹಣ ಆಪ್ಲೆಟ್‍ಗಾಗಿ�
 msgid "Mount local disks and devices"
 msgstr "ಸ್ಥಳೀಯ ಡಿಸ್ಕುಗಳನ್ನು ಹಾಗು ಸಾಧನಗಳನ್ನು ಆರೋಹಿಸು"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:12
 msgid "media-floppy"
 msgstr ""
@@ -929,8 +940,7 @@ msgstr ""
 msgid "A set of eyeballs for your panel"
 msgstr "ನಿಮ್ಮ ಫಲಕಕ್ಕಾಗಿ ಒಂದು ಜೋಡಿ ಕಣ್ಣುಗಳು"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: geyes/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-eyes-applet"
 msgstr ""
@@ -946,8 +956,7 @@ msgstr "ಕಣ್ಣುಗಳ ಆಪ್ಲೆಟ್ ಅನ್ನು ಆರಂಭ
 
 #: geyes/themes.c:130
 msgid "There was a fatal error while trying to load the theme."
-msgstr ""
-"ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿದಾಗ ಒಂದು ಅಪಾಯಕಾರಿ ದೋಷವು ಎದುರಾಗಿದೆ."
+msgstr "ಪರಿಸರವಿನ್ಯಾಸವನ್ನು ಲೋಡ್‌ ಮಾಡಲು ಪ್ರಯತ್ನಿಸಿದಾಗ ಒಂದು ಅಪಾಯಕಾರಿ ದೋಷವು ಎದುರಾಗಿದೆ."
 
 #: geyes/themes.c:282
 msgid "Eyes Preferences"
@@ -1127,150 +1136,150 @@ msgstr "ವಿಳಾಸದ ನಮೂದು"
 msgid "Enter the URL"
 msgstr "URL ಅನ್ನು ನಮೂದಿಸು"
 
-#: mateweather/mateweather-pref.c:283
+#: mateweather/mateweather-pref.c:281
 msgid ""
 "Failed to load the Locations XML database.  Please report this as a bug."
 msgstr ""
-"ತಾಣಗಳ XML ದತ್ತಸಂಚಯವು ಲೋಡ್ ಆಗುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ.  ದಯವಿಟ್ಟು. ಇದನ್ನು ದೋಷ ಎಂದು "
-"ವರದಿ ಮಾಡಿ."
+"ತಾಣಗಳ XML ದತ್ತಸಂಚಯವು ಲೋಡ್ ಆಗುವಲ್ಲಿ ವಿಫಲಗೊಂಡಿದೆ.  ದಯವಿಟ್ಟು. ಇದನ್ನು ದೋಷ ಎಂದು ವರದಿ "
+"ಮಾಡಿ."
 
-#: mateweather/mateweather-pref.c:807
+#: mateweather/mateweather-pref.c:805
 msgid "Weather Preferences"
 msgstr "ಹವಾಮಾನ ಆದ್ಯತೆಗಳು"
 
-#: mateweather/mateweather-pref.c:831 mateweather/mateweather-pref.c:1034
+#: mateweather/mateweather-pref.c:829 mateweather/mateweather-pref.c:1032
 msgid "_Automatically update every:"
 msgstr "ಪ್ರತಿ ಈ ಸಮಯದ ನಂತರ ತಾನಾಗಿಯೆ ಅಪ್‌ಡೇಟ್ ಮಾಡು(_A):"
 
-#: mateweather/mateweather-pref.c:847
+#: mateweather/mateweather-pref.c:845
 msgid "_Temperature unit:"
 msgstr "ತಾಪಮಾನದ ಘಟಕ(_T):"
 
-#: mateweather/mateweather-pref.c:857
+#: mateweather/mateweather-pref.c:855
 msgid "Kelvin"
 msgstr "ಕೆಲ್ವಿನ್"
 
-#: mateweather/mateweather-pref.c:859
+#: mateweather/mateweather-pref.c:857
 msgid "Celsius"
 msgstr "ಸೆಲ್ಸಿಯಸ್"
 
-#: mateweather/mateweather-pref.c:860
+#: mateweather/mateweather-pref.c:858
 msgid "Fahrenheit"
 msgstr "ಫ್ಯಾರನ್‍ಹೀಟ್"
 
-#: mateweather/mateweather-pref.c:869
+#: mateweather/mateweather-pref.c:867
 msgid "_Wind speed unit:"
 msgstr "ಗಾಳಿಯ ವೇಗದ ಘಟಕ(_W):"
 
-#: mateweather/mateweather-pref.c:880
+#: mateweather/mateweather-pref.c:878
 msgid "m/s"
 msgstr "m/s"
 
-#: mateweather/mateweather-pref.c:882
+#: mateweather/mateweather-pref.c:880
 msgid "km/h"
 msgstr "km/h"
 
-#: mateweather/mateweather-pref.c:884
+#: mateweather/mateweather-pref.c:882
 msgid "mph"
 msgstr "mph"
 
-#: mateweather/mateweather-pref.c:886
+#: mateweather/mateweather-pref.c:884
 msgid "knots"
 msgstr "ನಾಟ್‌ಗಳು"
 
-#: mateweather/mateweather-pref.c:887
+#: mateweather/mateweather-pref.c:885
 msgid "Beaufort scale"
 msgstr "ಬೋಫರ್ಟ್ ಘಟಕ"
 
-#: mateweather/mateweather-pref.c:896
+#: mateweather/mateweather-pref.c:894
 msgid "_Pressure unit:"
 msgstr "ಒತ್ತಡದ ಘಟಕ (_P):"
 
-#: mateweather/mateweather-pref.c:907
+#: mateweather/mateweather-pref.c:905
 msgid "kPa"
 msgstr "kPa"
 
-#: mateweather/mateweather-pref.c:909
+#: mateweather/mateweather-pref.c:907
 msgid "hPa"
 msgstr "hPa"
 
-#: mateweather/mateweather-pref.c:911
+#: mateweather/mateweather-pref.c:909
 msgid "mb"
 msgstr "mb"
 
-#: mateweather/mateweather-pref.c:913
+#: mateweather/mateweather-pref.c:911
 msgid "mmHg"
 msgstr "mmHg"
 
-#: mateweather/mateweather-pref.c:915
+#: mateweather/mateweather-pref.c:913
 msgid "inHg"
 msgstr "inHg"
 
-#: mateweather/mateweather-pref.c:917
+#: mateweather/mateweather-pref.c:915
 msgid "atm"
 msgstr "atm"
 
-#: mateweather/mateweather-pref.c:926
+#: mateweather/mateweather-pref.c:924
 msgid "_Visibility unit:"
 msgstr "ಗೋಚರಿಕೆ ಘಟಕ(_V):"
 
-#: mateweather/mateweather-pref.c:937
+#: mateweather/mateweather-pref.c:935
 msgid "meters"
 msgstr "ಮೀಟರುಗಳು"
 
-#: mateweather/mateweather-pref.c:939
+#: mateweather/mateweather-pref.c:937
 msgid "km"
 msgstr "km"
 
-#: mateweather/mateweather-pref.c:941
+#: mateweather/mateweather-pref.c:939
 msgid "miles"
 msgstr "ಮೈಲ್‍ಗಳು"
 
-#: mateweather/mateweather-pref.c:971
+#: mateweather/mateweather-pref.c:969
 msgid "Enable _radar map"
 msgstr "ರಾಡಾರ್ ನಕ್ಷೆಯನ್ನು ಶಕ್ತಗೊಳಿಸು(_r)"
 
-#: mateweather/mateweather-pref.c:987
+#: mateweather/mateweather-pref.c:985
 msgid "Use _custom address for radar map"
 msgstr "ರಾಡಾರ್ ನಕ್ಷೆಗಾಗಿ ಕಸ್ಟಮ್ ವಿಳಾಸವನ್ನು ಬಳಸು(_c)"
 
-#: mateweather/mateweather-pref.c:1005
+#: mateweather/mateweather-pref.c:1003
 msgid "A_ddress:"
 msgstr "ವಿಳಾಸ(_d):"
 
-#: mateweather/mateweather-pref.c:1020
+#: mateweather/mateweather-pref.c:1018
 msgid "Show _notifications"
 msgstr ""
 
-#: mateweather/mateweather-pref.c:1030
+#: mateweather/mateweather-pref.c:1028
 msgid "Update"
 msgstr "ಅಪ್ಡೇಟ್"
 
-#: mateweather/mateweather-pref.c:1047
+#: mateweather/mateweather-pref.c:1045
 msgid "minutes"
 msgstr "ನಿಮಿಷಗಳು"
 
-#: mateweather/mateweather-pref.c:1065
+#: mateweather/mateweather-pref.c:1063
 msgid "Display"
 msgstr "ಪ್ರದರ್ಶಕ"
 
-#: mateweather/mateweather-pref.c:1084
+#: mateweather/mateweather-pref.c:1082
 msgid "General"
 msgstr "ಸಾಮಾನ್ಯ"
 
-#: mateweather/mateweather-pref.c:1095
+#: mateweather/mateweather-pref.c:1093
 msgid "_Select a location:"
 msgstr "ಒಂದು ತಾಣವನ್ನು ಆರಿಸಿ(_S):"
 
-#: mateweather/mateweather-pref.c:1117
+#: mateweather/mateweather-pref.c:1115
 msgid "_Find:"
 msgstr "ಹುಡುಕು(_F):"
 
-#: mateweather/mateweather-pref.c:1123
+#: mateweather/mateweather-pref.c:1121
 msgid "Find _Next"
 msgstr "ಮುಂದಿನದನ್ನು ಪತ್ತೆ ಹಚ್ಚು(_N)"
 
-#: mateweather/mateweather-pref.c:1144
+#: mateweather/mateweather-pref.c:1142
 msgid "Location"
 msgstr "ಸ್ಥಳ"
 
@@ -1286,8 +1295,7 @@ msgstr "ಹವಾಮಾನದ ಆಪ್ಲೆಟ್‌ ಅನ್ನು ನಿರ
 msgid "Monitor the current weather conditions, and forecasts"
 msgstr "ಪ್ರಸಕ್ತ ಹವಾಮಾನ ಸ್ಥಿತಿಗಳನ್ನು, ಹಾಗು ಮುನ್ಸೂಚನೆಗಳನ್ನು ನೋಡಿಕೊ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:12
 msgid "weather-storm"
 msgstr ""
@@ -1310,40 +1318,40 @@ msgstr ""
 "ಒಂದು ಗಣಕದ ಲೋಡ್‌ ಮೇಲ್ವಿಚಾರಕವು CPU ram, ಹಾಗು ಸ್ವಾಪ್‌ ಬಳಕೆ ಜಾಗ, ಹಾಗು ಜಾಲಬಂಧದ "
 "ಟ್ರಾಫಿಕ್‌ಗಾಗಿನ ನಕ್ಷೆಗಳನ್ನು ತೋರಿಸಲು ಶಕ್ತವಾಗಿರುತ್ತದೆ."
 
-#: multiload/main.c:129
+#: multiload/main.c:127
 msgid "Start system-monitor"
 msgstr ""
 
-#: multiload/main.c:151
+#: multiload/main.c:149
 #, c-format
 msgid "There was an error executing '%s': %s"
 msgstr "'%s' ಅನ್ನು ಕಾರ್ಯಗತಗೊಳಿಸುವಲ್ಲಿ ಒಂದು ದೋಷ ಎದುರಾಗಿದೆ: %s"
 
-#: multiload/main.c:279 multiload/properties.c:643
+#: multiload/main.c:276 multiload/properties.c:643
 msgid "Processor"
 msgstr "ಸಂಸ್ಕಾರಕ"
 
-#: multiload/main.c:281 multiload/properties.c:651
+#: multiload/main.c:278 multiload/properties.c:651
 msgid "Memory"
 msgstr "ಮೆಮೊರಿ"
 
-#: multiload/main.c:283 multiload/properties.c:659
+#: multiload/main.c:280 multiload/properties.c:659
 msgid "Network"
 msgstr "ಜಾಲಬಂಧ"
 
-#: multiload/main.c:285 multiload/properties.c:668
+#: multiload/main.c:282 multiload/properties.c:668
 msgid "Swap Space"
 msgstr "ಸ್ವಾಪ್ ಜಾಗ"
 
-#: multiload/main.c:287 multiload/main.c:366
+#: multiload/main.c:284 multiload/main.c:363
 msgid "Load Average"
 msgstr "ಲೋಡ್ ಸರಾಸರಿ"
 
-#: multiload/main.c:289
+#: multiload/main.c:286
 msgid "Disk"
 msgstr "ಡಿಸ್ಕ್‍"
 
-#: multiload/main.c:305
+#: multiload/main.c:302
 #, c-format
 msgid ""
 "%s:\n"
@@ -1354,12 +1362,12 @@ msgstr ""
 "%u%% ಪ್ರೋಗ್ರಾಂನಿಂದ ಬಳಸಲ್ಪಡುತ್ತಿದೆ\n"
 "%u%% ಕ್ಯಾಶೆಯಾಗಿ ಬಳಸಲ್ಪಡುತ್ತಿದೆ"
 
-#: multiload/main.c:313
+#: multiload/main.c:310
 #, c-format
 msgid "The system load average is %0.02f"
 msgstr "ಗಣಕದ ಲೋಡ್ ಸರಾಸರಿಯು %0.02f ಆಗಿದೆ"
 
-#: multiload/main.c:321
+#: multiload/main.c:318
 #, c-format
 msgid ""
 "%s:\n"
@@ -1370,7 +1378,7 @@ msgstr ""
 "%s ಅನ್ನು ಸ್ವೀಕರಿಸಲಾಗುತ್ತಿದೆ\n"
 "%s ಅನ್ನು ಕಳುಹಿಸಲಾಗುತ್ತಿದೆ"
 
-#: multiload/main.c:337
+#: multiload/main.c:334
 #, c-format
 msgid ""
 "%s:\n"
@@ -1381,31 +1389,31 @@ msgid_plural ""
 msgstr[0] ""
 msgstr[1] ""
 
-#: multiload/main.c:362
+#: multiload/main.c:359
 msgid "CPU Load"
 msgstr "CPU ಲೋಡ್"
 
-#: multiload/main.c:363
+#: multiload/main.c:360
 msgid "Memory Load"
 msgstr "ಮೆಮೊರಿ ಲೋಡ್"
 
-#: multiload/main.c:364
+#: multiload/main.c:361
 msgid "Net Load"
 msgstr "ಜಾಲ ಲೋಡ್"
 
-#: multiload/main.c:365
+#: multiload/main.c:362
 msgid "Swap Load"
 msgstr "ಸ್ವಾಪ್ ಲೋಡ್"
 
-#: multiload/main.c:367
+#: multiload/main.c:364
 msgid "Disk Load"
 msgstr "ಡಿಸ್ಕ್‍ ಲೋಡ್"
 
-#: multiload/main.c:485
+#: multiload/main.c:482
 msgid "_Open System Monitor"
 msgstr "ತೆಗೆ ಗಣಕ ಮೇಲ್ವಿಚಾರಕವನ್ನು ತೆರೆ(_O)"
 
-#: multiload/main.c:517
+#: multiload/main.c:514
 #: multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:9
 msgid "System Monitor"
 msgstr "ಗಣಕ ಮೇಲ್ವಿಚಾರಕ"
@@ -1427,8 +1435,7 @@ msgstr ""
 msgid "A system load indicator"
 msgstr "ಒಂದು ಗಣಕದ ಲೋಡ್ ಸೂಚಕ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:12
 msgid "utilities-system-monitor"
 msgstr ""
@@ -1470,8 +1477,8 @@ msgid ""
 "For horizontal panels, the width of the graphs in pixels. For vertical "
 "panels, this is the height of the graphs."
 msgstr ""
-"ಅಡ್ಡ ಫಲಕಗಳಿಗೆ, ನಕ್ಷೆಯ ಅಗಲವು ಪಿಕ್ಸೆಲ್‌ಗಳಲ್ಲಿ ಸೂಚಿಸಲಾಗುವುದು. ಲಂಬ ಫಲಕಗಳಿಗೆ, ಇದು"
-" ನಕ್ಷೆಯ ಎತ್ತರವಾಗಿರುತ್ತದೆ."
+"ಅಡ್ಡ ಫಲಕಗಳಿಗೆ, ನಕ್ಷೆಯ ಅಗಲವು ಪಿಕ್ಸೆಲ್‌ಗಳಲ್ಲಿ ಸೂಚಿಸಲಾಗುವುದು. ಲಂಬ ಫಲಕಗಳಿಗೆ, ಇದು ನಕ್ಷೆಯ "
+"ಎತ್ತರವಾಗಿರುತ್ತದೆ."
 
 #: multiload/org.mate.panel.applet.multiload.gschema.xml.in:38
 msgid "Graph color for user-related CPU activity"
@@ -1744,7 +1751,7 @@ msgid "Threshold 1: "
 msgstr ""
 
 #: multiload/properties.c:745 multiload/properties.c:780
-#: multiload/properties.c:815 netspeed/src/netspeed.c:432
+#: multiload/properties.c:815 netspeed/src/netspeed.c:425
 msgid "bytes"
 msgstr "ಬೈಟ್ ಗಳು"
 
@@ -1867,255 +1874,206 @@ msgstr ""
 msgid "Network Monitor"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-netspeed-applet"
 msgstr ""
 
-#: netspeed/src/netspeed.c:427
+#: netspeed/src/netspeed.c:420
 msgid "b"
 msgstr "b"
 
-#: netspeed/src/netspeed.c:427
+#: netspeed/src/netspeed.c:420
 msgid "B"
 msgstr "B"
 
-#: netspeed/src/netspeed.c:429
+#: netspeed/src/netspeed.c:422
 msgid "b/s"
 msgstr "b/s"
 
-#: netspeed/src/netspeed.c:429
+#: netspeed/src/netspeed.c:422
 msgid "B/s"
 msgstr "B/s"
 
-#: netspeed/src/netspeed.c:432
+#: netspeed/src/netspeed.c:425
 msgid "bits"
 msgstr "ಬಿಟ್ ಗಳು"
 
-#: netspeed/src/netspeed.c:440
+#: netspeed/src/netspeed.c:433
 msgid "k"
 msgstr "k"
 
-#: netspeed/src/netspeed.c:440
+#: netspeed/src/netspeed.c:433
 msgid "K"
 msgstr "K"
 
-#: netspeed/src/netspeed.c:442
+#: netspeed/src/netspeed.c:435
 msgid "kb/s"
 msgstr "kb/s"
 
-#: netspeed/src/netspeed.c:442
+#: netspeed/src/netspeed.c:435
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: netspeed/src/netspeed.c:445
+#: netspeed/src/netspeed.c:438
 msgid "kb"
 msgstr "kb"
 
-#: netspeed/src/netspeed.c:445
+#: netspeed/src/netspeed.c:438
 msgid "KiB"
 msgstr "KiB"
 
-#: netspeed/src/netspeed.c:455
+#: netspeed/src/netspeed.c:448
 msgid "m"
 msgstr "m"
 
-#: netspeed/src/netspeed.c:455
+#: netspeed/src/netspeed.c:448
 msgid "M"
 msgstr "M"
 
-#: netspeed/src/netspeed.c:457
+#: netspeed/src/netspeed.c:450
 msgid "Mb/s"
 msgstr "Mb/s"
 
-#: netspeed/src/netspeed.c:457
+#: netspeed/src/netspeed.c:450
 msgid "MiB/s"
 msgstr "MiB/s"
 
-#: netspeed/src/netspeed.c:460
+#: netspeed/src/netspeed.c:453
 msgid "Mb"
 msgstr "Mb"
 
-#: netspeed/src/netspeed.c:460
+#: netspeed/src/netspeed.c:453
 msgid "MiB"
 msgstr "MiB"
 
-#: netspeed/src/netspeed.c:784
+#: netspeed/src/netspeed.c:776
 #, c-format
 msgid ""
 "There was an error displaying help:\n"
 "%s"
 msgstr ""
 
-#: netspeed/src/netspeed.c:821
+#: netspeed/src/netspeed.c:813
 msgid "About MATE Netspeed"
 msgstr ""
 
-#: netspeed/src/netspeed.c:823
+#: netspeed/src/netspeed.c:815
 msgid ""
 "Copyright © 2002-2003 Jörgen Scheibengruber\n"
 "Copyright © 2011-2014 Stefano Karapetsas\n"
 "Copyright © 2015-2020 MATE developers"
 msgstr ""
 
-#: netspeed/src/netspeed.c:826
+#: netspeed/src/netspeed.c:818
 msgid ""
 "A little applet that displays some information on the traffic on the "
 "specified network device"
 msgstr ""
 
-#: netspeed/src/netspeed.c:987
-msgid "MATE Netspeed Preferences"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1009
-msgid "General Settings"
-msgstr "ಸಾಮಾನ್ಯ ಅಳವಡಿಕೆಗಳು"
-
-#: netspeed/src/netspeed.c:1031
-msgid "Network _device:"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1043
+#: netspeed/src/netspeed.c:973
 msgid "Default"
 msgstr "ಪೂರ್ವನಿಯೋಜಿತ"
 
-#: netspeed/src/netspeed.c:1056
-msgid "Show _sum instead of in & out"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1060
-msgid "Show _bits instead of bytes"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1064
-msgid "Shorten _unit legend"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1068
-msgid "_Change icon according to the selected device"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1072
-msgid "Show _icon"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1076
-msgid "Show signal _quality icon for wireless devices"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1194
+#: netspeed/src/netspeed.c:1089
 #, c-format
 msgid "Device Details for %s"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1219
+#: netspeed/src/netspeed.c:1114
 msgid "_In graph color"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1220
+#: netspeed/src/netspeed.c:1115
 msgid "_Out graph color"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1236
+#: netspeed/src/netspeed.c:1131
 msgid "Internet Address:"
 msgstr "ಅಂತರ್ಜಾಲ ವಿಳಾಸ:"
 
-#: netspeed/src/netspeed.c:1237
+#: netspeed/src/netspeed.c:1132
 msgid "Netmask:"
 msgstr "ನೆಟ್ ಮಾಸ್ಕ(Netmask):"
 
-#: netspeed/src/netspeed.c:1238
+#: netspeed/src/netspeed.c:1133
 msgid "Hardware Address:"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1239
+#: netspeed/src/netspeed.c:1134
 msgid "P-t-P Address:"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1240
+#: netspeed/src/netspeed.c:1135
 msgid "Bytes in:"
 msgstr "ಬೈಟ್ ಗಳ ಒಳಹರಿವು:"
 
-#: netspeed/src/netspeed.c:1241
+#: netspeed/src/netspeed.c:1136
 msgid "Bytes out:"
 msgstr "ಬೈಟ್ ಗಳ ಹೊರಹರಿವು:"
 
-#: netspeed/src/netspeed.c:1243 netspeed/src/netspeed.c:1244
-#: netspeed/src/netspeed.c:1245 netspeed/src/netspeed.c:1246
+#: netspeed/src/netspeed.c:1138 netspeed/src/netspeed.c:1139
+#: netspeed/src/netspeed.c:1140 netspeed/src/netspeed.c:1141
 msgid "none"
 msgstr "ಯಾವುದು ಇಲ್ಲ"
 
-#: netspeed/src/netspeed.c:1297
+#: netspeed/src/netspeed.c:1192
 msgid "IPV6 Address:"
 msgstr "IPV6 ವಿಳಾಸ:"
 
-#: netspeed/src/netspeed.c:1330
+#: netspeed/src/netspeed.c:1225
 msgid "Signal Strength:"
 msgstr "ಸಿಗ್ನಲ್ ಸಾಮರ್ಥ್ಯ"
 
-#: netspeed/src/netspeed.c:1331
+#: netspeed/src/netspeed.c:1226
 msgid "ESSID:"
 msgstr "ESSID:"
 
-#: netspeed/src/netspeed.c:1372
+#: netspeed/src/netspeed.c:1267
 msgid "Device _Details"
 msgstr "ಸಾಧನ ವಿವರಗಳು(_D)"
 
-#: netspeed/src/netspeed.c:1374
-msgid "Preferences..."
-msgstr "ಆದ್ಯತೆಗಳು..."
-
-#: netspeed/src/netspeed.c:1376
-msgid "Help"
-msgstr "ಸಹಾಯ"
-
-#: netspeed/src/netspeed.c:1378
-msgid "About..."
-msgstr "ಕುರಿತು..."
-
-#: netspeed/src/netspeed.c:1419
+#: netspeed/src/netspeed.c:1314
 #, c-format
 msgid "Do you want to disconnect %s now?"
 msgstr "ನೀವು ಈಗ %s ಸಂಪರ್ಕ ತಪ್ಪಿಸಲು ಬಯಸುತ್ತೀರಾ?"
 
-#: netspeed/src/netspeed.c:1423
+#: netspeed/src/netspeed.c:1318
 #, c-format
 msgid "Do you want to connect %s now?"
 msgstr "ನೀವು ಈಗ %s ಸಂಪರ್ಕ ಸಾಧಿಸಲು ಬಯಸುತ್ತೀರಾ?"
 
-#: netspeed/src/netspeed.c:1450
+#: netspeed/src/netspeed.c:1345
 #, c-format
 msgid ""
 "<b>Running command %s failed</b>\n"
 "%s"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1509
+#: netspeed/src/netspeed.c:1404
 #, c-format
 msgid "%s is down"
 msgstr "%s ಸ್ಥಗಿತಗೊಂಡಿದೆ"
 
-#: netspeed/src/netspeed.c:1514
+#: netspeed/src/netspeed.c:1409
 #, c-format
 msgid ""
 "%s: %s\n"
 "in: %s out: %s"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1516 netspeed/src/netspeed.c:1525
+#: netspeed/src/netspeed.c:1411 netspeed/src/netspeed.c:1420
 msgid "has no ip"
 msgstr "ಯಾವುದೇ ip ಇಲ್ಲ"
 
-#: netspeed/src/netspeed.c:1523
+#: netspeed/src/netspeed.c:1418
 #, c-format
 msgid ""
 "%s: %s\n"
 "sum: %s"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1532
+#: netspeed/src/netspeed.c:1427
 #, c-format
 msgid ""
 "\n"
@@ -2123,13 +2081,49 @@ msgid ""
 "Strength: %d %%"
 msgstr ""
 
-#: netspeed/src/netspeed.c:1533
+#: netspeed/src/netspeed.c:1428
 msgid "unknown"
 msgstr "ಅಜ್ಞಾತ"
 
-#: netspeed/src/netspeed.c:1584
+#: netspeed/src/netspeed.c:1478
 msgid "MATE Netspeed"
 msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:18
+msgid "MATE Netspeed Preferences"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:100
+msgid "Network _device:"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:131
+msgid "Show _sum instead of in & out"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:148
+msgid "Show _bits instead of bytes"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:165
+msgid "Shorten _unit legend"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:182
+msgid "_Change icon according to the selected device"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:199
+msgid "Show _icon"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:216
+msgid "Show signal _quality icon for wireless devices"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:240
+msgid "General Settings"
+msgstr "ಸಾಮಾನ್ಯ ಅಳವಡಿಕೆಗಳು"
 
 #: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:5
 #: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:6
@@ -2145,204 +2139,206 @@ msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳು"
 msgid "Create, view, and manage sticky notes on the desktop"
 msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ಗಣಕತೆರೆಯಲ್ಲಿ ರಚಿಸು, ವೀಕ್ಷಿಸು ಹಾಗು ವ್ಯವಸ್ಥಾಪಿಸಿ"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-sticky-notes-applet"
 msgstr ""
 
-#: stickynotes/stickynotes.c:577
+#: stickynotes/stickynotes.c:578
 msgid "This note is locked."
 msgstr "ಈ ಟಿಪ್ಪಣಿಯು ಲಾಕ್ ಆಗಿದೆ."
 
-#: stickynotes/stickynotes.c:581
+#: stickynotes/stickynotes.c:582
 msgid "This note is unlocked."
 msgstr "ಈ ಟಿಪ್ಪಣಿಯು ಅನ್‍ಲಾಕ್ ಆಗಿದೆ."
 
-#: stickynotes/stickynotes.ui:26 stickynotes/stickynotes_applet.c:34
-msgid "_New Note"
-msgstr "ಹೊಸ ಟಿಪ್ಪಣಿ(_N)"
-
-#: stickynotes/stickynotes.ui:32
-msgid "_Delete Note..."
+#: stickynotes/sticky-notes-delete-all.ui:36
+#: stickynotes/sticky-notes-delete.ui:37
+msgid "_Cancel"
 msgstr ""
 
-#: stickynotes/stickynotes.ui:38
-msgid "_Lock Note"
-msgstr ""
-
-#: stickynotes/stickynotes.ui:44
-msgid "_Properties"
-msgstr "ಗುಣಲಕ್ಷಣಗಳು(_P)"
-
-#: stickynotes/stickynotes.ui:62
-msgid "Sticky Notes Preferences"
-msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳ ಆದ್ಯತೆಗಳು"
-
-#: stickynotes/stickynotes.ui:82
-msgid "Default Note Properties"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಟಿಪ್ಪಣಿ ಗುಣಲಕ್ಷಣಗಳು"
-
-#: stickynotes/stickynotes.ui:119
-msgid "Choose a font to use for all sticky notes"
-msgstr "ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಲ್ಲಿ ಬಳಸಲು ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:120
-msgid "Pick a default sticky note font"
-msgstr "ಒಂದು ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:139 stickynotes/stickynotes.ui:994
-msgid "_Font:"
-msgstr "ಅಕ್ಷರಶೈಲಿ(_F):"
-
-#: stickynotes/stickynotes.ui:153
-msgid "Use fo_nt from the system theme"
-msgstr "ಗಣಕ ಪರಿಸರವಿನ್ಯಾಸದ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು(_o)"
-
-#: stickynotes/stickynotes.ui:176
-msgid "Note C_olor:"
-msgstr "ಟಿಪ್ಪಣಿಯ ಬಣ್ಣ(_o):"
-
-#: stickynotes/stickynotes.ui:197
-msgid "Font Co_lor:"
-msgstr "ಅಕ್ಷರಶೈಲಿಯ ಬಣ್ಣ(_l):"
-
-#: stickynotes/stickynotes.ui:230
-msgid "Choose a base color to use for all sticky notes"
-msgstr "ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಲ್ಲೂ ಬಳಸಲು ಒಂದು ಮೂಲಭೂತವಾದ ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:231
-msgid "Pick a default sticky note color"
-msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:243
-msgid "Use co_lor from the system theme"
-msgstr "ಗಣಕ ಪರಿಸರವಿನ್ಯಾಸದ ಬಣ್ಣವನ್ನು ಬಳಸು(_l)"
-
-#: stickynotes/stickynotes.ui:262
-msgid "Specify the default height (in pixels) of new notes"
-msgstr "ಹೊಸ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಪೂರ್ವನಿಯೋಜಿತ ಉದ್ದವನ್ನು (ಪಿಕ್ಸೆಲ್‍ಗಳಲ್ಲಿ) ಸೂಚಿಸಿ"
-
-#: stickynotes/stickynotes.ui:279
-msgid "Specify the default width (in pixels) of new notes"
-msgstr "ಹೊಸ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲವನ್ನು (ಪಿಕ್ಸೆಲ್‍ಗಳಲ್ಲಿ) ಸೂಚಿಸಿ"
-
-#: stickynotes/stickynotes.ui:294
-msgid "H_eight:"
-msgstr "ಉದ್ದ(_e):"
-
-#: stickynotes/stickynotes.ui:309
-msgid "_Width:"
-msgstr "ಅಗಲ(_W):"
-
-#: stickynotes/stickynotes.ui:343
-msgid "Behavior"
-msgstr "ವರ್ತನೆ"
-
-#: stickynotes/stickynotes.ui:377
-msgid "Hide notes when the des_ktop is clicked on"
-msgstr ""
-
-#: stickynotes/stickynotes.ui:381
-msgid "Choose whether to hide all notes when selecting on the desktop"
-msgstr ""
-
-#: stickynotes/stickynotes.ui:394
-msgid "Force _default color and font on notes"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣ ಹಾಗು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಒತ್ತಾಯಿಸು(_d)"
-
-#: stickynotes/stickynotes.ui:398
-msgid "Choose if the default style is forced on all notes"
-msgstr ""
-"ಪೂರ್ವನಿಯೋಜಿತ ಶೈಲಿಯು ಎಲ್ಲಾ ಟಿಪ್ಪಣಿಗಳಲ್ಲಿ ಒತ್ತಾಯಿಸಲ್ಪಡಬೇಕೆ ಎಂಬುದನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:411
-msgid "_Put notes on all workspaces"
-msgstr "ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲೂ ಟಿಪ್ಪಣಿಗಳನ್ನು ಹಾಕು(_P)"
-
-#: stickynotes/stickynotes.ui:415
-msgid "Choose if notes are visible on all workspaces"
-msgstr "ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲಿಯೂ ಟಿಪ್ಪಣಿಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಬೇಕೆ ಎಂದು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:540
-msgid "Delete this sticky note?"
-msgstr "ಈ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಯನ್ನು ಅಳಿಸಬೇಕೆ?"
-
-#: stickynotes/stickynotes.ui:555 stickynotes/stickynotes.ui:673
-msgid "This cannot be undone."
-msgstr "ಇದನ್ನು ರದ್ದು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."
-
-#: stickynotes/stickynotes.ui:658
-msgid "Delete all sticky notes?"
-msgstr "ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ಅಳಿಸಬೇಕೆ?"
-
-#: stickynotes/stickynotes.ui:741
+#: stickynotes/sticky-notes-delete-all.ui:53
 msgid "_Delete All"
 msgstr "ಎಲ್ಲವನ್ನು ಅಳಿಸಿಹಾಕು(_D)"
 
-#: stickynotes/stickynotes.ui:779
+#: stickynotes/sticky-notes-delete-all.ui:106
+msgid "Delete all sticky notes?"
+msgstr "ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ಅಳಿಸಬೇಕೆ?"
+
+#: stickynotes/sticky-notes-delete-all.ui:123
+#: stickynotes/sticky-notes-delete.ui:124
+msgid "This cannot be undone."
+msgstr "ಇದನ್ನು ರದ್ದು ಮಾಡಲು ಸಾಧ್ಯವಿಲ್ಲ."
+
+#: stickynotes/sticky-notes-delete.ui:54
+#, fuzzy
+msgid "_Delete"
+msgstr "ಎಲ್ಲವನ್ನು ಅಳಿಸಿಹಾಕು(_D)"
+
+#: stickynotes/sticky-notes-delete.ui:107
+msgid "Delete this sticky note?"
+msgstr "ಈ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಯನ್ನು ಅಳಿಸಬೇಕೆ?"
+
+#: stickynotes/sticky-notes-note.ui:11
 msgid "Sticky Note"
 msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿ"
 
-#: stickynotes/stickynotes.ui:790
+#: stickynotes/sticky-notes-note.ui:28
 msgid "Lock/Unlock note"
 msgstr "ಟಿಪ್ಪಣಿಯನ್ನು ಲಾಕ್/ಅನ್‍ಲಾಕ್ ಮಾಡು"
 
-#: stickynotes/stickynotes.ui:820
+#: stickynotes/sticky-notes-note.ui:66
 msgid "Delete note"
 msgstr ""
 
-#: stickynotes/stickynotes.ui:868 stickynotes/stickynotes.ui:887
+#: stickynotes/sticky-notes-note.ui:119 stickynotes/sticky-notes-note.ui:142
 msgid "Resize note"
 msgstr "ಟಿಪ್ಪಣಿಯ ಗಾತ್ರವನ್ನು ಬದಲಾಯಿಸು"
 
-#: stickynotes/stickynotes.ui:917
+#: stickynotes/sticky-notes-preferences.ui:32
+msgid "Sticky Notes Preferences"
+msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳ ಆದ್ಯತೆಗಳು"
+
+#: stickynotes/sticky-notes-preferences.ui:108
+msgid "Default Note Properties"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಟಿಪ್ಪಣಿ ಗುಣಲಕ್ಷಣಗಳು"
+
+#: stickynotes/sticky-notes-preferences.ui:131
+msgid "_Width:"
+msgstr "ಅಗಲ(_W):"
+
+#: stickynotes/sticky-notes-preferences.ui:144
+msgid "H_eight:"
+msgstr "ಉದ್ದ(_e):"
+
+#: stickynotes/sticky-notes-preferences.ui:157
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "ಹೊಸ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಪೂರ್ವನಿಯೋಜಿತ ಅಗಲವನ್ನು (ಪಿಕ್ಸೆಲ್‍ಗಳಲ್ಲಿ) ಸೂಚಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:158
+msgid "1"
+msgstr ""
+
+#: stickynotes/sticky-notes-preferences.ui:172
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "ಹೊಸ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಪೂರ್ವನಿಯೋಜಿತ ಉದ್ದವನ್ನು (ಪಿಕ್ಸೆಲ್‍ಗಳಲ್ಲಿ) ಸೂಚಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:173
+msgid "0"
+msgstr ""
+
+#: stickynotes/sticky-notes-preferences.ui:185
+msgid "Use co_lor from the system theme"
+msgstr "ಗಣಕ ಪರಿಸರವಿನ್ಯಾಸದ ಬಣ್ಣವನ್ನು ಬಳಸು(_l)"
+
+#: stickynotes/sticky-notes-preferences.ui:203
+msgid "Font Co_lor:"
+msgstr "ಅಕ್ಷರಶೈಲಿಯ ಬಣ್ಣ(_l):"
+
+#: stickynotes/sticky-notes-preferences.ui:216
+msgid "Note C_olor:"
+msgstr "ಟಿಪ್ಪಣಿಯ ಬಣ್ಣ(_o):"
+
+#: stickynotes/sticky-notes-preferences.ui:241
+msgid "Choose a base color to use for all sticky notes"
+msgstr "ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಲ್ಲೂ ಬಳಸಲು ಒಂದು ಮೂಲಭೂತವಾದ ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:242
+msgid "Pick a default sticky note color"
+msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:251
+msgid "Use fo_nt from the system theme"
+msgstr "ಗಣಕ ಪರಿಸರವಿನ್ಯಾಸದ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು(_o)"
+
+#: stickynotes/sticky-notes-preferences.ui:269
+#: stickynotes/sticky-notes-properties.ui:226
+msgid "_Font:"
+msgstr "ಅಕ್ಷರಶೈಲಿ(_F):"
+
+#: stickynotes/sticky-notes-preferences.ui:283
+msgid "Choose a font to use for all sticky notes"
+msgstr "ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಲ್ಲಿ ಬಳಸಲು ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:285
+msgid "Pick a default sticky note font"
+msgstr "ಒಂದು ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:316
+msgid "Behavior"
+msgstr "ವರ್ತನೆ"
+
+#: stickynotes/sticky-notes-preferences.ui:337
+msgid "_Put notes on all workspaces"
+msgstr "ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲೂ ಟಿಪ್ಪಣಿಗಳನ್ನು ಹಾಕು(_P)"
+
+#: stickynotes/sticky-notes-preferences.ui:341
+msgid "Choose if notes are visible on all workspaces"
+msgstr "ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲಿಯೂ ಟಿಪ್ಪಣಿಗಳು ಕಾಣಿಸಿಕೊಳ್ಳಬೇಕೆ ಎಂದು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:354
+msgid "Force _default color and font on notes"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣ ಹಾಗು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಒತ್ತಾಯಿಸು(_d)"
+
+#: stickynotes/sticky-notes-preferences.ui:358
+msgid "Choose if the default style is forced on all notes"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಶೈಲಿಯು ಎಲ್ಲಾ ಟಿಪ್ಪಣಿಗಳಲ್ಲಿ ಒತ್ತಾಯಿಸಲ್ಪಡಬೇಕೆ ಎಂಬುದನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-preferences.ui:371
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr ""
+
+#: stickynotes/sticky-notes-preferences.ui:375
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr ""
+
+#: stickynotes/sticky-notes-properties.ui:18
 msgid "Sticky Note Properties"
 msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿ ಗುಣಲಕ್ಷಣಗಳು"
 
-#: stickynotes/stickynotes.ui:937
+#: stickynotes/sticky-notes-properties.ui:94
 msgid "Properties"
 msgstr "ಗುಣಲಕ್ಷಣಗಳು"
 
-#: stickynotes/stickynotes.ui:974
-msgid "Choose a font for the note"
-msgstr "ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
+#: stickynotes/sticky-notes-properties.ui:117
+msgid "_Title:"
+msgstr "ಶೀರ್ಷಿಕೆ(_T):"
 
-#: stickynotes/stickynotes.ui:975
-msgid "Pick a font for the sticky note"
-msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:1008
-msgid "Use default fo_nt"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು(_n)"
-
-#: stickynotes/stickynotes.ui:1028
-msgid "Choose a color for the note"
-msgstr "ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:1029
-msgid "Pick a color for the sticky note"
-msgstr "ಒಂದು ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
-
-#: stickynotes/stickynotes.ui:1048
-msgid "Note _Color:"
-msgstr "ಟಿಪ್ಪಣಿಯ ಬಣ್ಣ(_C):"
-
-#: stickynotes/stickynotes.ui:1083
-msgid "Font C_olor:"
-msgstr "ಅಕ್ಷರಶೈಲಿಯ ಬಣ್ಣ(_o):"
-
-#: stickynotes/stickynotes.ui:1097
-msgid "Use default co_lor"
-msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣವನ್ನು ಬಳಸು(_l)"
-
-#: stickynotes/stickynotes.ui:1115
+#: stickynotes/sticky-notes-properties.ui:130
 msgid "Specify a title for the note"
 msgstr "ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಶೀರ್ಷಿಕೆಯನ್ನು ಸೂಚಿಸಿ"
 
-#: stickynotes/stickynotes.ui:1127
-msgid "_Title:"
-msgstr "ಶೀರ್ಷಿಕೆ(_T):"
+#: stickynotes/sticky-notes-properties.ui:139
+msgid "Use default co_lor"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣವನ್ನು ಬಳಸು(_l)"
+
+#: stickynotes/sticky-notes-properties.ui:158
+msgid "Font C_olor:"
+msgstr "ಅಕ್ಷರಶೈಲಿಯ ಬಣ್ಣ(_o):"
+
+#: stickynotes/sticky-notes-properties.ui:172
+msgid "Note _Color:"
+msgstr "ಟಿಪ್ಪಣಿಯ ಬಣ್ಣ(_C):"
+
+#: stickynotes/sticky-notes-properties.ui:183
+msgid "Use default fo_nt"
+msgstr "ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಬಳಸು(_n)"
+
+#: stickynotes/sticky-notes-properties.ui:213
+msgid "Choose a color for the note"
+msgstr "ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-properties.ui:214
+msgid "Pick a color for the sticky note"
+msgstr "ಒಂದು ಪೂರ್ವನಿಯೋಜಿತ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿ ಬಣ್ಣವನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-properties.ui:240
+msgid "Choose a font for the note"
+msgstr "ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
+
+#: stickynotes/sticky-notes-properties.ui:242
+msgid "Pick a font for the sticky note"
+msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗೆ ಒಂದು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಆರಿಸಿ"
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:5
 msgid "Default width for new notes"
@@ -2393,8 +2389,8 @@ msgid ""
 "Default font for new sticky notes. This should be a Pango Font Name, for "
 "example \"Sans Italic 10\"."
 msgstr ""
-"ಹೊಸ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿ. ಇದು ಒಂದು ಪ್ಯಾಂಗೋ "
-"ಅಕ್ಷರಶೈಲಿಯ ಹೆಸರಾಗಿರಬೇಕು, ಉದಾಹರಣೆಗೆ \"Sans Italic 10\"."
+"ಹೊಸ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಿಗಾಗಿ ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿ. ಇದು ಒಂದು ಪ್ಯಾಂಗೋ ಅಕ್ಷರಶೈಲಿಯ "
+"ಹೆಸರಾಗಿರಬೇಕು, ಉದಾಹರಣೆಗೆ \"Sans Italic 10\"."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:30
 msgid "Sticky notes' workspace stickyness"
@@ -2405,8 +2401,8 @@ msgid ""
 "Specifies whether the sticky notes are visible on ALL workspaces on the "
 "desktop, or not."
 msgstr ""
-"ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳು ಗಣಕತೆರೆಯಲ್ಲಿನ ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲೂ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆಯೆ"
-" ಇಲ್ಲವೆ ಎಂದು ಸೂಚಿಸುತ್ತದೆ."
+"ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳು ಗಣಕತೆರೆಯಲ್ಲಿನ ಎಲ್ಲಾ ಕಾರ್ಯಕ್ಷೇತ್ರಗಳಲ್ಲೂ ಕಾಣಿಸಿಕೊಳ್ಳುತ್ತವೆಯೆ ಇಲ್ಲವೆ "
+"ಎಂದು ಸೂಚಿಸುತ್ತದೆ."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:35
 msgid "Sticky notes' locked state"
@@ -2415,8 +2411,7 @@ msgstr "ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳ ಲಾಕ್ ಆದಂತ
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:36
 msgid "Specifies whether the sticky notes are locked (non-editable) or not."
 msgstr ""
-"ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳು ಲಾಕ್ ಆಗಿವೆಯೆ ಇಲ್ಲವೆ(ಸಂಪಾದಿಸಲಾಗಂತಹ ಸ್ಥಿತಿ) ಎಂದು "
-"ತೋರಿಸುತ್ತದೆ."
+"ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳು ಲಾಕ್ ಆಗಿವೆಯೆ ಇಲ್ಲವೆ(ಸಂಪಾದಿಸಲಾಗಂತಹ ಸ್ಥಿತಿ) ಎಂದು ತೋರಿಸುತ್ತದೆ."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:40
 msgid "Date format of note's title"
@@ -2428,9 +2423,9 @@ msgid ""
 "are created. This format is used; anything that can be parsed by strftime() "
 "is valid."
 msgstr ""
-"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ, ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ರಚಿಸಿದಾಗ ಶೀರ್ಷಿಕೆಯಾಗಿ ಪ್ರಸಕ್ತ "
-"ದಿನಾಂಕವನ್ನು ನೀಡಲಾಗುವುದು. ಈ ವಿನ್ಯಾಸವನ್ನು ಬಳಸಿದಾಗ; strftime() ಇಂದ ಪಾರ್ಸ್ "
-"ಮಾಡಲಾಗುವ ಯಾವುದೆ ವಿನ್ಯಾಸವು ಮಾನ್ಯವಾಗಿರುತ್ತದೆ."
+"ಪೂರ್ವನಿಯೋಜಿತವಾಗಿ, ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳನ್ನು ರಚಿಸಿದಾಗ ಶೀರ್ಷಿಕೆಯಾಗಿ ಪ್ರಸಕ್ತ ದಿನಾಂಕವನ್ನು "
+"ನೀಡಲಾಗುವುದು. ಈ ವಿನ್ಯಾಸವನ್ನು ಬಳಸಿದಾಗ; strftime() ಇಂದ ಪಾರ್ಸ್ ಮಾಡಲಾಗುವ ಯಾವುದೆ "
+"ವಿನ್ಯಾಸವು ಮಾನ್ಯವಾಗಿರುತ್ತದೆ."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:45
 msgid "Whether to use the default system color"
@@ -2441,8 +2436,8 @@ msgid ""
 "If this option is disabled, a custom color can be used as the default color "
 "for all sticky notes."
 msgstr ""
-"ಈ ಆಯ್ಕೆಯು ಅಶಕ್ತಗೊಂಡದ್ದಲ್ಲಿ, ಒಂದು ಕಸ್ಟಮ್ ಬಣ್ಣವನ್ನು ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಿಗೆ "
-"ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣವಾಗಿ ಬಳಸಬಹುದು."
+"ಈ ಆಯ್ಕೆಯು ಅಶಕ್ತಗೊಂಡದ್ದಲ್ಲಿ, ಒಂದು ಕಸ್ಟಮ್ ಬಣ್ಣವನ್ನು ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಿಗೆ ಪೂರ್ವನಿಯೋಜಿತ "
+"ಬಣ್ಣವಾಗಿ ಬಳಸಬಹುದು."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:50
 msgid "Whether to use the default system font"
@@ -2453,22 +2448,21 @@ msgid ""
 "If this option is disabled, a custom font can be used as the default font "
 "for all sticky notes."
 msgstr ""
-"ಈ ಆಯ್ಕೆಯು ಅಶಕ್ತಗೊಂಡದ್ದಲ್ಲಿ, ಒಂದು ಕಸ್ಟಮ್ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಎಲ್ಲಾ ಸ್ಟಿಕಿ "
-"ಟಿಪ್ಪಣಿಗಳಿಗೆ ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿಯಾಗಿ ಬಳಸಬಹುದು."
+"ಈ ಆಯ್ಕೆಯು ಅಶಕ್ತಗೊಂಡದ್ದಲ್ಲಿ, ಒಂದು ಕಸ್ಟಮ್ ಅಕ್ಷರಶೈಲಿಯನ್ನು ಎಲ್ಲಾ ಸ್ಟಿಕಿ ಟಿಪ್ಪಣಿಗಳಿಗೆ "
+"ಪೂರ್ವನಿಯೋಜಿತ ಅಕ್ಷರಶೈಲಿಯಾಗಿ ಬಳಸಬಹುದು."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:55
 msgid "Whether to force the default color and font on all notes"
 msgstr ""
-"ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣ ಹಾಗು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಎಲ್ಲಾ ಟಿಪ್ಪಣಿಗಳಲ್ಲೂ ಬಳಸುವಂತೆ "
-"ಒತ್ತಾಯಿಸಬೇಕೆ"
+"ಪೂರ್ವನಿಯೋಜಿತ ಬಣ್ಣ ಹಾಗು ಅಕ್ಷರಶೈಲಿಯನ್ನು ಎಲ್ಲಾ ಟಿಪ್ಪಣಿಗಳಲ್ಲೂ ಬಳಸುವಂತೆ ಒತ್ತಾಯಿಸಬೇಕೆ"
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:56
 msgid ""
 "If this option is enabled, the custom colors and fonts that have been "
 "assigned to individual notes will be ignored."
 msgstr ""
-"ಈ ಆಯ್ಕೆಯು ಶಕ್ತಗೊಂಡಿದ್ದಲ್ಲಿ, ಪ್ರತ್ಯೇಕ ಟಿಪ್ಪಣಿಗಳಿಗೆ ನಿಯೋಜಿಸಲಾದ ಕಸ್ಟಮ್ ಬಣ್ಣಗಳು "
-"ಹಾಗು ಅಕ್ಷರಶೈಲಿಗಳು ನಿರ್ಲಕ್ಷಿಸಲ್ಪಡುತ್ತವೆ."
+"ಈ ಆಯ್ಕೆಯು ಶಕ್ತಗೊಂಡಿದ್ದಲ್ಲಿ, ಪ್ರತ್ಯೇಕ ಟಿಪ್ಪಣಿಗಳಿಗೆ ನಿಯೋಜಿಸಲಾದ ಕಸ್ಟಮ್ ಬಣ್ಣಗಳು ಹಾಗು "
+"ಅಕ್ಷರಶೈಲಿಗಳು ನಿರ್ಲಕ್ಷಿಸಲ್ಪಡುತ್ತವೆ."
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:60
 msgid "Whether to hide all notes when the desktop is selected"
@@ -2487,6 +2481,10 @@ msgstr "ಒಂದು ಟಿಪ್ಪಣಿಯನ್ನು ಅಳಿಸುವ ಮ
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:66
 msgid "Empty notes are always deleted without confirmation."
 msgstr "ಖಾಲಿ ಇರುವ ಟಿಪ್ಪಣಿಗಳು ಯಾವುದೆ ಖಚಿತತೆಗೆ ಕಾಯದೆ ಅಳಿಸಲ್ಪಡುತ್ತವೆ."
+
+#: stickynotes/stickynotes_applet.c:34
+msgid "_New Note"
+msgstr "ಹೊಸ ಟಿಪ್ಪಣಿ(_N)"
 
 #: stickynotes/stickynotes_applet.c:37
 msgid "Hi_de Notes"
@@ -2540,8 +2538,7 @@ msgstr ""
 msgid "Start a timer and receive a notification when it is finished"
 msgstr ""
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: timerapplet/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-panel-clock"
 msgstr ""
@@ -2637,13 +2634,12 @@ msgstr "ಕಸದ ಬುಟ್ಟಿ"
 msgid "Go to Trash"
 msgstr "ಕಸಬುಟ್ಟಿಗೆ ತೆರಳು"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:12
 msgid "user-trash-full"
 msgstr ""
 
-#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:352
+#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:344
 msgid "_Empty Trash"
 msgstr "ಕಸದಬುಟ್ಟಿಯನ್ನು ಖಾಲಿಮಾಡು(_E)"
 
@@ -2687,8 +2683,8 @@ msgid ""
 "A MATE trash bin that lives in your panel. You can use it to view the trash "
 "or drag and drop items into the trash."
 msgstr ""
-"A MATE ಕಸದಬುಟ್ಟಿಯು ನಿಮ್ಮ ಫಲಕದಲ್ಲಿಯೆ ಇರುತ್ತದೆ. ನೀವು ಅದರೊಳಗಿರುವ ಕಸಗಳನ್ನು ನೋಡಲು"
-" ಅಥವ ಅದಕ್ಕೆ ಅಂಶಗಳನ್ನು ಎಳೆದು ತಂದು ಹಾಕಲು ಬಳಸಬಹುದಾಗಿದೆ."
+"A MATE ಕಸದಬುಟ್ಟಿಯು ನಿಮ್ಮ ಫಲಕದಲ್ಲಿಯೆ ಇರುತ್ತದೆ. ನೀವು ಅದರೊಳಗಿರುವ ಕಸಗಳನ್ನು ನೋಡಲು ಅಥವ "
+"ಅದಕ್ಕೆ ಅಂಶಗಳನ್ನು ಎಳೆದು ತಂದು ಹಾಕಲು ಬಳಸಬಹುದಾಗಿದೆ."
 
 #: trashapplet/src/trashapplet.c:462
 msgid "Delete Immediately?"
@@ -2697,44 +2693,43 @@ msgstr "ಈ ತಕ್ಷಣ ಅಳಿಸಿಹಾಕಬೇಕೆ?"
 #: trashapplet/src/trashapplet.c:492
 msgid "Cannot move items to trash, do you want to delete them immediately?"
 msgstr ""
-"ಅಂಶಗಳನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸಲಾಗಿಲ್ಲ, ನೀವು ಅವನ್ನು ಈ ತಕ್ಷಣವೆ ಅಳಿಸಲು "
-"ಬಯಸುತ್ತೀರೆ?"
+"ಅಂಶಗಳನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸಲಾಗಿಲ್ಲ, ನೀವು ಅವನ್ನು ಈ ತಕ್ಷಣವೆ ಅಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
 
 #: trashapplet/src/trashapplet.c:497
 msgid ""
 "Cannot move some items to trash, do you want to delete these immediately?"
 msgstr ""
-"ಕೆಲವೊಂದು ಅಂಶಗಳನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸಲಾಗಿಲ್ಲ, ನೀವು ಅವನ್ನು ಈ ತಕ್ಷಣವೆ "
-"ಅಳಿಸಲು ಬಯಸುತ್ತೀರೆ?"
+"ಕೆಲವೊಂದು ಅಂಶಗಳನ್ನು ಕಸದ ಬುಟ್ಟಿಗೆ ವರ್ಗಾಯಿಸಲಾಗಿಲ್ಲ, ನೀವು ಅವನ್ನು ಈ ತಕ್ಷಣವೆ ಅಳಿಸಲು "
+"ಬಯಸುತ್ತೀರೆ?"
 
 #: trashapplet/src/trashapplet.c:625
 msgid "Trash Applet"
 msgstr "ಕಸಬುಟ್ಟಿ ಅನ್ವಯ"
 
 #. Translators: the %s in this string should be read as %d.
-#: trashapplet/src/trash-empty.c:80
+#: trashapplet/src/trash-empty.c:72
 #, c-format
 msgid "Removing item %s of %s"
 msgstr "%s ಅಂಶಗಳನ್ನು (%s ಗಳಲ್ಲಿ) ತೆಗೆದು ಹಾಕಲಾಗುತ್ತಿದೆ"
 
 #. Translators: %s is a file name
-#: trashapplet/src/trash-empty.c:106
+#: trashapplet/src/trash-empty.c:98
 #, c-format
 msgid "Removing: %s"
 msgstr "ತೆಗೆದು ಹಾಕಲಾಗುತ್ತಿದೆ: %s"
 
-#: trashapplet/src/trash-empty.c:332
+#: trashapplet/src/trash-empty.c:324
 msgid "Empty all of the items from the trash?"
 msgstr "ಕಸದಬುಟ್ಟಿಯಲ್ಲಿನ ಎಲ್ಲಾ ಅಂಶಗಳನ್ನು ಖಾಲಿಮಾಡಬೇಕೆ?"
 
-#: trashapplet/src/trash-empty.c:339
+#: trashapplet/src/trash-empty.c:331
 msgid ""
 "If you choose to empty the trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
 msgstr ""
 "ನೀವು ಕಸದಬುಟ್ಟಿಯ ಅಂಶಗಳನ್ನು ಖಾಲಿ ಮಾಡಲು ಆಯ್ಕೆ ಮಾಡಿದಲ್ಲಿ, ಅದರಲ್ಲಿ ಎಲ್ಲಾ ಅಂಶಗಳು "
-"ಶಾಶ್ವತವಾಗಿ ನಾಶಗೊಳ್ಳುತ್ತವೆ. ಅವನ್ನು ನೀವು ಪ್ರತ್ಯೇಕವಾಗಿಯೂ ಸಹ ಅಳಿಸಲು ಸಾಧ್ಯ "
-"ಎನ್ನುವದನ್ನು ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
+"ಶಾಶ್ವತವಾಗಿ ನಾಶಗೊಳ್ಳುತ್ತವೆ. ಅವನ್ನು ನೀವು ಪ್ರತ್ಯೇಕವಾಗಿಯೂ ಸಹ ಅಳಿಸಲು ಸಾಧ್ಯ ಎನ್ನುವದನ್ನು "
+"ದಯವಿಟ್ಟು ಗಮನಿಸಿ."
 
 #: trashapplet/trashapplet-empty-progress.ui:7
 #: trashapplet/trashapplet-empty-progress.ui:21
@@ -2744,3 +2739,23 @@ msgstr "ಕಸಬುಟ್ಟಿಯನ್ನು ಖಾಲಿ ಮಾಡಲಾಗ�
 #: trashapplet/trashapplet-empty-progress.ui:36
 msgid "From:"
 msgstr "ಯಿಂದ:"
+
+#, fuzzy
+#~ msgid "Preferences"
+#~ msgstr "ಆದ್ಯತೆಗಳು(_P)"
+
+#~ msgid "Help"
+#~ msgstr "ಸಹಾಯ"
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "ಇದರ ಬಗ್ಗೆ(_A)"
+
+#~ msgid "Preferences..."
+#~ msgstr "ಆದ್ಯತೆಗಳು..."
+
+#~ msgid "About..."
+#~ msgstr "ಕುರಿತು..."
+
+#~ msgid "_Properties"
+#~ msgstr "ಗುಣಲಕ್ಷಣಗಳು(_P)"

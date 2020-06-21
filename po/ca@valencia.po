@@ -2,35 +2,36 @@
 # Copyright (C) YEAR MATE Desktop Environment team
 # This file is distributed under the same license as the mate-applets package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-# 
+#
 # Translators:
 # Stefano Karapetsas <stefano@karapetsas.com>, 2018
 # Jose Alfredo Murcia Andrés <joamuran@gmail.com>, 2018
 # Pilar Embid <embid.mar@gmail.com>, 2018
 # Empar Montoro <emontra2018@gmail.com>, 2019
-# 
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: mate-applets 1.23.0\n"
 "Report-Msgid-Bugs-To: https://www.transifex.com/mate/MATE/\n"
-"POT-Creation-Date: 2020-01-10 17:58+0100\n"
+"POT-Creation-Date: 2020-06-21 14:01+0200\n"
 "PO-Revision-Date: 2018-03-11 16:20+0000\n"
 "Last-Translator: Empar Montoro <emontra2018@gmail.com>, 2019\n"
-"Language-Team: Catalan (Valencian) (https://www.transifex.com/mate/teams/13566/ca@valencia/)\n"
+"Language-Team: Catalan (Valencian) (https://www.transifex.com/mate/"
+"teams/13566/ca@valencia/)\n"
+"Language: ca@valencia\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Language: ca@valencia\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: accessx-status/applet.c:86 charpick/charpick.c:571 geyes/geyes.c:166
+#: accessx-status/applet.c:86 charpick/charpick.c:570 geyes/geyes.c:166
 #: mateweather/mateweather-about.c:41 multiload/main.c:48
 #: stickynotes/stickynotes_applet_callbacks.c:367
 msgid "Sun GNOME Documentation Team <gdocteam@sun.com>"
 msgstr ""
 
 #: accessx-status/applet.c:87 battstat/battstat_applet.c:819
-#: charpick/charpick.c:572 cpufreq/src/cpufreq-applet.c:466
+#: charpick/charpick.c:571 cpufreq/src/cpufreq-applet.c:448
 #: drivemount/drivemount.c:109 geyes/geyes.c:167
 #: mateweather/mateweather-about.c:43 multiload/main.c:49
 #: stickynotes/stickynotes_applet_callbacks.c:368
@@ -55,10 +56,10 @@ msgid ""
 msgstr ""
 
 #: accessx-status/applet.c:105 battstat/battstat_applet.c:844
-#: charpick/charpick.c:592 command/command.c:128
-#: cpufreq/src/cpufreq-applet.c:490 drivemount/drivemount.c:127
+#: charpick/charpick.c:591 command/command.c:131
+#: cpufreq/src/cpufreq-applet.c:472 drivemount/drivemount.c:127
 #: geyes/geyes.c:186 mateweather/mateweather-about.c:61 multiload/main.c:69
-#: netspeed/src/netspeed.c:829 stickynotes/stickynotes_applet_callbacks.c:388
+#: netspeed/src/netspeed.c:821 stickynotes/stickynotes_applet_callbacks.c:388
 #: timerapplet/timerapplet.c:278 trashapplet/src/trashapplet.c:442
 msgid "translator-credits"
 msgstr ""
@@ -89,55 +90,58 @@ msgid "_Keyboard Accessibility Preferences"
 msgstr "Preferències d'accessibilitat del _teclat"
 
 #: accessx-status/applet.c:183 battstat/battstat_applet.c:63
-#: charpick/charpick.c:673 cpufreq/src/cpufreq-applet.c:119
+#: charpick/charpick.c:668 cpufreq/src/cpufreq-applet.c:119
 #: drivemount/drivemount.c:165 geyes/geyes.c:359
-#: mateweather/mateweather-applet.c:117 multiload/main.c:488
+#: mateweather/mateweather-applet.c:117 multiload/main.c:485
+#: netspeed/src/netspeed.c:1271 netspeed/src/netspeed-preferences.ui:33
+#: stickynotes/sticky-notes-preferences.ui:51
+#: stickynotes/sticky-notes-properties.ui:37
 #: stickynotes/stickynotes_applet.c:46 trashapplet/src/trashapplet.c:74
 msgid "_Help"
 msgstr "_Ajuda"
 
 #: accessx-status/applet.c:184 battstat/battstat_applet.c:66
-#: charpick/charpick.c:676 command/command.c:84
+#: charpick/charpick.c:671 command/command.c:87
 #: cpufreq/src/cpufreq-applet.c:122 drivemount/drivemount.c:168
-#: geyes/geyes.c:362 mateweather/mateweather-applet.c:120 multiload/main.c:491
-#: stickynotes/stickynotes_applet.c:49 timerapplet/timerapplet.c:84
-#: trashapplet/src/trashapplet.c:77
+#: geyes/geyes.c:362 mateweather/mateweather-applet.c:120 multiload/main.c:488
+#: netspeed/src/netspeed.c:1273 stickynotes/stickynotes_applet.c:49
+#: timerapplet/timerapplet.c:84 trashapplet/src/trashapplet.c:77
 msgid "_About"
 msgstr "_Quant a"
 
-#: accessx-status/applet.c:504 accessx-status/applet.c:558
+#: accessx-status/applet.c:503 accessx-status/applet.c:557
 msgid "a"
 msgstr "a"
 
-#: accessx-status/applet.c:1043 accessx-status/applet.c:1109
-#: accessx-status/applet.c:1194 accessx-status/applet.c:1388
+#: accessx-status/applet.c:1042 accessx-status/applet.c:1108
+#: accessx-status/applet.c:1193 accessx-status/applet.c:1387
 msgid "AccessX Status"
 msgstr "Estat d'AccessX"
 
-#: accessx-status/applet.c:1044 accessx-status/applet.c:1195
+#: accessx-status/applet.c:1043 accessx-status/applet.c:1194
 msgid "Shows keyboard status when accessibility features are used."
 msgstr ""
 "Mostra l'estat del teclat quan s'usen les funcionalitats d'accessibilitat."
 
-#: accessx-status/applet.c:1078
+#: accessx-status/applet.c:1077
 msgid "XKB Extension is not enabled"
 msgstr "L'extensió XKB no està habilitada"
 
-#: accessx-status/applet.c:1083
+#: accessx-status/applet.c:1082
 msgid "Unknown error"
 msgstr "Error desconegut"
 
-#: accessx-status/applet.c:1087
+#: accessx-status/applet.c:1086
 #, c-format
 msgid "Error: %s"
 msgstr "Error: %s"
 
-#: accessx-status/applet.c:1385
+#: accessx-status/applet.c:1384
 #: accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:9
 msgid "Keyboard Accessibility Status"
 msgstr "Estat de l'accessibilitat del teclat"
 
-#: accessx-status/applet.c:1389
+#: accessx-status/applet.c:1388
 msgid "Displays current state of keyboard accessibility features"
 msgstr ""
 "Mostra l'estat actual de les funcionalitats d'accessibilitat del teclat"
@@ -154,16 +158,16 @@ msgstr "Fàbrica de la miniaplicació de l'estat d'accessibilitat del teclat"
 msgid "Shows the status of keyboard accessibility features"
 msgstr "Mostra l'estat de les funcionalitats d'accessibilitat del teclat"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: accessx-status/org.mate.applets.AccessxStatusApplet.mate-panel-applet.desktop.in.in:12
 msgid "preferences-desktop-accessibility"
 msgstr ""
 
-#: battstat/battstat_applet.c:60 charpick/charpick.c:670 command/command.c:83
+#: battstat/battstat_applet.c:60 charpick/charpick.c:665 command/command.c:86
 #: cpufreq/src/cpufreq-applet.c:116 geyes/geyes.c:356
-#: mateweather/mateweather-applet.c:114 multiload/main.c:482
-#: stickynotes/stickynotes_applet.c:43 timerapplet/timerapplet.c:83
+#: mateweather/mateweather-applet.c:114 multiload/main.c:479
+#: netspeed/src/netspeed.c:1269 stickynotes/stickynotes_applet.c:43
+#: timerapplet/timerapplet.c:83
 msgid "_Preferences"
 msgstr "_Preferències"
 
@@ -304,9 +308,9 @@ msgstr "Es desconeix l'estat de la bateria"
 msgid "N/A"
 msgstr "N/D"
 
-#: battstat/battstat_applet.c:783 drivemount/drivemount.c:153
-#: geyes/geyes.c:344 geyes/themes.c:223 mateweather/mateweather-applet.c:63
-#: mateweather/mateweather-pref.c:747
+#: battstat/battstat_applet.c:783 drivemount/drivemount.c:153 geyes/geyes.c:344
+#: geyes/themes.c:223 mateweather/mateweather-applet.c:63
+#: mateweather/mateweather-pref.c:745
 #: stickynotes/stickynotes_applet_callbacks.c:345
 #: stickynotes/stickynotes_applet_callbacks.c:540
 #: trashapplet/src/trashapplet.c:399
@@ -371,8 +375,7 @@ msgstr "Mostra el _percentatge restant"
 msgid "Notifications"
 msgstr "Notificacions"
 
-#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge
-#. drops to: [XX] percent/minutes remaining'
+#. TRANSLATOR: This is the beginning of the sentence 'Warn when battery charge drops to: [XX] percent/minutes remaining'
 #: battstat/battstat_applet.ui:206
 msgid "_Warn when battery charge drops to:"
 msgstr "A_visa quan la càrrega de la bateria baixe a:"
@@ -386,8 +389,7 @@ msgstr "_Notifica quan la bateria estiga completament recarregada"
 msgid "Battstat Factory"
 msgstr "Fàbrica de la càrrega de bateria"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: battstat/org.mate.applets.BattstatApplet.mate-panel-applet.desktop.in.in:12
 msgid "battery"
 msgstr ""
@@ -401,8 +403,8 @@ msgid ""
 "The battery level below which the battery is displayed as red. Also the "
 "value at which the low battery warning is displayed."
 msgstr ""
-"El nivell de bateria per davall del qual la bateria es mostra de color roig."
-" També el valor al qual es mostra l'avís de bateria baixa."
+"El nivell de bateria per davall del qual la bateria es mostra de color roig. "
+"També el valor al qual es mostra l'avís de bateria baixa."
 
 #: battstat/org.mate.panel.applet.battstat.gschema.xml.in:10
 msgid "Warn on low time rather than low percentage"
@@ -461,49 +463,50 @@ msgstr "minuts restants"
 msgid "Battery Status Utility"
 msgstr "Utilitat de l'estat de la bateria"
 
-#: charpick/charpick.c:404
+#: charpick/charpick.c:403
 msgid "Available palettes"
 msgstr "Paletes disponibles"
 
-#: charpick/charpick.c:453
+#: charpick/charpick.c:452
 #, c-format
 msgid "Insert \"%s\""
 msgstr "Insereix «%s»"
 
-#: charpick/charpick.c:456
+#: charpick/charpick.c:455
 msgid "Insert special character"
 msgstr "Insereix el caràcter especial"
 
-#: charpick/charpick.c:460
+#: charpick/charpick.c:459
 #, c-format
 msgid "insert special character %s"
 msgstr "insereix el caràcter especial %s"
 
-#: charpick/charpick.c:583
+#: charpick/charpick.c:582
 msgid "About Character Palette"
 msgstr ""
 
-#: charpick/charpick.c:585
+#: charpick/charpick.c:584
 msgid ""
 "Copyright © 1998, 2004-2005 GNOME Applets Maintainers and others\n"
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: charpick/charpick.c:587
+#: charpick/charpick.c:586
+#, fuzzy
 msgid ""
-"Mate Panel applet for selecting strange characters that are not on my "
+"MATE Panel applet for selecting strange characters that are not on the "
 "keyboard. Released under GNU General Public Licence."
 msgstr ""
 "Miniaplicació per al quadre del MATE per a seleccionar caràcters que no són "
 "al teclat. Publicat sota la Llicència Pública General GNU."
 
-#: charpick/charpick.c:699 charpick/charpick.c:713
+#: charpick/charpick.c:694 charpick/charpick.c:708
 #: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:9
 #: charpick/properties.c:451
 msgid "Character Palette"
 msgstr "Paleta de caràcters"
 
-#: charpick/charpick.c:699
+#: charpick/charpick.c:694
 #: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:10
 msgid "Insert characters"
 msgstr "Insereix caràcters"
@@ -513,8 +516,7 @@ msgstr "Insereix caràcters"
 msgid "Charpicker Applet Factory"
 msgstr "Fàbrica de la miniaplicació de la paleta de caràcters"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: charpick/org.mate.applets.CharpickerApplet.mate-panel-applet.desktop.in.in:12
 msgid "accessories-character-map"
 msgstr ""
@@ -601,46 +603,54 @@ msgstr "Feu clic per a suprimir la paleta seleccionada"
 msgid "Character Palette Preferences"
 msgstr "Preferències de la paleta de caràcters"
 
-#: command/command.c:122
+#: command/command.c:125
 msgid "About Command Applet"
 msgstr ""
 
-#: command/command.c:124
+#: command/command.c:127
 msgid ""
 "Copyright © 2013-2014 Stefano Karapetsas\n"
 "Copyright © 2015-2020 MATE developers"
 msgstr ""
 
-#: command/command.c:127
+#: command/command.c:130
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:10
 msgid "Shows the output of a command"
 msgstr "Mostra l'eixida d'una ordre"
 
-#: command/command.c:194
+#: command/command.c:408
+msgid "Command Applet"
+msgstr "Miniaplicació d'ordres"
+
+#: command/command-preferences.ui:25
 msgid "Command Applet Preferences"
 msgstr "Preferències de la miniaplicació d'ordres"
 
-#: command/command.c:207
-msgid "Command:"
+#: command/command-preferences.ui:39 netspeed/src/netspeed-preferences.ui:49
+#: stickynotes/sticky-notes-preferences.ui:68
+#: stickynotes/sticky-notes-properties.ui:54
+msgid "_Close"
+msgstr ""
+
+#: command/command-preferences.ui:77
+#, fuzzy
+msgid "C_ommand:"
 msgstr "Ordre:"
 
-#: command/command.c:215
-msgid "Interval (seconds):"
+#: command/command-preferences.ui:91
+#, fuzzy
+msgid "_Interval (seconds):"
 msgstr "Interval (segons):"
 
-#: command/command.c:223
-msgid "Maximum width (chars):"
+#: command/command-preferences.ui:105
+#, fuzzy
+msgid "Maximum _width (chars):"
 msgstr "Amplària màxima (caràcters):"
 
-#: command/command.c:231
-#: command/org.mate.panel.applet.command.gschema.xml.in:20
-#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
-msgid "Show icon"
+#: command/command-preferences.ui:161
+#, fuzzy
+msgid "_Show icon"
 msgstr "Mostra la icona"
-
-#: command/command.c:443
-msgid "Command Applet"
-msgstr "Miniaplicació d'ordres"
 
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:5
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:6
@@ -651,8 +661,7 @@ msgstr "Fàbrica d'ordres"
 msgid "Command"
 msgstr "Ordre"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: command/org.mate.applets.CommandApplet.mate-panel-applet.desktop.in.in:12
 msgid "utilities-terminal"
 msgstr ""
@@ -680,6 +689,11 @@ msgstr "Amplària de l'eixida"
 #: command/org.mate.panel.applet.command.gschema.xml.in:16
 msgid "Number of characters to display"
 msgstr "Nombre de caràcters per mostrar"
+
+#: command/org.mate.panel.applet.command.gschema.xml.in:20
+#: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:20
+msgid "Show icon"
+msgstr "Mostra la icona"
 
 #: command/org.mate.panel.applet.command.gschema.xml.in:21
 msgid "If applet icon is shown or not"
@@ -719,7 +733,7 @@ msgstr "Mostra la freqüència de la CPU com a _percentatge"
 
 #: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:5
 #: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:9
-#: cpufreq/src/cpufreq-applet.c:813 cpufreq/src/cpufreq-applet.c:868
+#: cpufreq/src/cpufreq-applet.c:794 cpufreq/src/cpufreq-applet.c:849
 msgid "CPU Frequency Scaling Monitor"
 msgstr "Monitor de l'escalat de la freqüència de la CPU"
 
@@ -728,8 +742,7 @@ msgstr "Monitor de l'escalat de la freqüència de la CPU"
 msgid "Monitor the CPU Frequency Scaling"
 msgstr "Fes un seguiment de l'escalat de la freqüència de la CPU"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: cpufreq/org.mate.applets.CPUFreqApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-cpu-frequency-applet"
 msgstr ""
@@ -753,11 +766,11 @@ msgstr "Mode per a mostrar l'ús de la CPU"
 #: cpufreq/org.mate.panel.applet.cpufreq.gschema.xml.in:12
 msgid ""
 "A 0 value means to show the applet in graphic mode (pixmap only), 1 to show "
-"the applet in text mode (not to show the pixmap) and 2 to show the applet in"
-" graphic and text mode."
+"the applet in text mode (not to show the pixmap) and 2 to show the applet in "
+"graphic and text mode."
 msgstr ""
-"El valor 0 significa que es mostra la miniaplicació en mode gràfic (només el"
-" mapa de píxels), el valor 1 mostra la miniaplicació en mode text (sense "
+"El valor 0 significa que es mostra la miniaplicació en mode gràfic (només el "
+"mapa de píxels), el valor 1 mostra la miniaplicació en mode text (sense "
 "mostrar el mapa de píxels), i el valor 2 mostra la miniaplicació en mode "
 "text i gràfic."
 
@@ -771,30 +784,29 @@ msgid ""
 "to show percentage instead of frequency."
 msgstr ""
 "El valor 0 significa que es mostra la freqüència de la CPU, 1 mostra la "
-"freqüència i les unitats, i 2 mostra el percentatge en lloc de la "
-"freqüència."
+"freqüència i les unitats, i 2 mostra el percentatge en lloc de la freqüència."
 
-#: cpufreq/src/cpufreq-applet.c:449 cpufreq/src/cpufreq-prefs.c:358
+#: cpufreq/src/cpufreq-applet.c:431 cpufreq/src/cpufreq-prefs.c:358
 msgid "Could not open help document"
 msgstr "No s'ha pogut obrir el document d'ajuda"
 
-#: cpufreq/src/cpufreq-applet.c:481
+#: cpufreq/src/cpufreq-applet.c:463
 msgid "About CPU Frequency Scaling Monitor"
 msgstr ""
 
-#: cpufreq/src/cpufreq-applet.c:483
+#: cpufreq/src/cpufreq-applet.c:465
 msgid ""
 "Copyright © 2004 Carlos Garcia Campos\n"
 "Copyright © 2012-2020 MATE developers"
 msgstr ""
 
-#: cpufreq/src/cpufreq-applet.c:485
+#: cpufreq/src/cpufreq-applet.c:467
 msgid "This utility shows the current CPU Frequency Scaling."
 msgstr ""
 "Aquesta utilitat mostra l'estat actual de l'escalat de la freqüència de la "
 "CPU."
 
-#: cpufreq/src/cpufreq-applet.c:869
+#: cpufreq/src/cpufreq-applet.c:850
 msgid "This utility shows the current CPU Frequency"
 msgstr "Aquesta utilitat mostra la freqüència actual de la CPU"
 
@@ -835,42 +847,47 @@ msgstr "Canvia l'escalat de la freqüència de la CPU"
 msgid "Privileges are required to change the CPU Frequency scaling."
 msgstr "Calen privilegis per a canviar l'escalat de la freqüència de la CPU."
 
-#: drivemount/drive-button.c:340 drivemount/drive-button.c:354
+#: drivemount/drive-button.c:277
+#, fuzzy
+msgid "nothing to mount"
+msgstr "(sense muntar)"
+
+#: drivemount/drive-button.c:310 drivemount/drive-button.c:324
 msgid "(mounted)"
 msgstr "(muntada)"
 
-#: drivemount/drive-button.c:347
+#: drivemount/drive-button.c:317
 msgid "(not mounted)"
 msgstr "(sense muntar)"
 
-#: drivemount/drive-button.c:619
+#: drivemount/drive-button.c:589
 msgid "Cannot execute Caja"
 msgstr "No es pot executar el Caja"
 
-#: drivemount/drive-button.c:943
+#: drivemount/drive-button.c:913
 msgid "_Play DVD"
 msgstr "Re_produeix el DVD"
 
-#: drivemount/drive-button.c:947
+#: drivemount/drive-button.c:917
 msgid "_Play CD"
 msgstr "Re_produeix el CD"
 
-#: drivemount/drive-button.c:950
+#: drivemount/drive-button.c:920
 #, c-format
 msgid "_Open %s"
 msgstr "_Obri %s"
 
-#: drivemount/drive-button.c:958
+#: drivemount/drive-button.c:928
 #, c-format
 msgid "Un_mount %s"
 msgstr "Des_munta %s"
 
-#: drivemount/drive-button.c:964
+#: drivemount/drive-button.c:934
 #, c-format
 msgid "_Mount %s"
 msgstr "_Munta %s"
 
-#: drivemount/drive-button.c:972
+#: drivemount/drive-button.c:942
 #, c-format
 msgid "_Eject %s"
 msgstr "_Expulsa %s"
@@ -889,7 +906,7 @@ msgstr ""
 msgid "Applet for mounting and unmounting block volumes."
 msgstr "Miniaplicació per a muntar i desmuntar volums d'unitats."
 
-#: drivemount/drivemount.c:185 drivemount/drivemount.c:225
+#: drivemount/drivemount.c:185 drivemount/drivemount.c:220
 #: drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:9
 msgid "Disk Mounter"
 msgstr "Muntador de discos"
@@ -906,8 +923,7 @@ msgstr "Fàbrica per a la miniaplicació del muntador d'unitats"
 msgid "Mount local disks and devices"
 msgstr "Munta discos i dispositius locals"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: drivemount/org.mate.applets.DriveMountApplet.mate-panel-applet.desktop.in.in:12
 msgid "media-floppy"
 msgstr ""
@@ -944,8 +960,7 @@ msgstr ""
 msgid "A set of eyeballs for your panel"
 msgstr "Un parell d'ulls per al quadre"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: geyes/org.mate.applets.GeyesApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-eyes-applet"
 msgstr ""
@@ -1144,150 +1159,150 @@ msgstr "Entrada de l'adreça"
 msgid "Enter the URL"
 msgstr "Introduïu l'URL"
 
-#: mateweather/mateweather-pref.c:283
+#: mateweather/mateweather-pref.c:281
 msgid ""
 "Failed to load the Locations XML database.  Please report this as a bug."
 msgstr ""
 "No s'ha pogut carregar la base de dades XML de les ubicacions. Informeu-ne "
 "com a error."
 
-#: mateweather/mateweather-pref.c:807
+#: mateweather/mateweather-pref.c:805
 msgid "Weather Preferences"
 msgstr "Preferències del butlletí meteorològic"
 
-#: mateweather/mateweather-pref.c:831 mateweather/mateweather-pref.c:1034
+#: mateweather/mateweather-pref.c:829 mateweather/mateweather-pref.c:1032
 msgid "_Automatically update every:"
 msgstr "Actualitza _automàticament cada:"
 
-#: mateweather/mateweather-pref.c:847
+#: mateweather/mateweather-pref.c:845
 msgid "_Temperature unit:"
 msgstr "Unitat de _temperatura:"
 
-#: mateweather/mateweather-pref.c:857
+#: mateweather/mateweather-pref.c:855
 msgid "Kelvin"
 msgstr "Kelvin"
 
-#: mateweather/mateweather-pref.c:859
+#: mateweather/mateweather-pref.c:857
 msgid "Celsius"
 msgstr "Celsius"
 
-#: mateweather/mateweather-pref.c:860
+#: mateweather/mateweather-pref.c:858
 msgid "Fahrenheit"
 msgstr "Fahrenheit"
 
-#: mateweather/mateweather-pref.c:869
+#: mateweather/mateweather-pref.c:867
 msgid "_Wind speed unit:"
 msgstr "Unitat de velocitat del _vent:"
 
-#: mateweather/mateweather-pref.c:880
+#: mateweather/mateweather-pref.c:878
 msgid "m/s"
 msgstr "m/s"
 
-#: mateweather/mateweather-pref.c:882
+#: mateweather/mateweather-pref.c:880
 msgid "km/h"
 msgstr "km/h"
 
-#: mateweather/mateweather-pref.c:884
+#: mateweather/mateweather-pref.c:882
 msgid "mph"
 msgstr "mph"
 
-#: mateweather/mateweather-pref.c:886
+#: mateweather/mateweather-pref.c:884
 msgid "knots"
 msgstr "nusos"
 
-#: mateweather/mateweather-pref.c:887
+#: mateweather/mateweather-pref.c:885
 msgid "Beaufort scale"
 msgstr "Escala de Beaufort"
 
-#: mateweather/mateweather-pref.c:896
+#: mateweather/mateweather-pref.c:894
 msgid "_Pressure unit:"
 msgstr "Unitat de _pressió:"
 
-#: mateweather/mateweather-pref.c:907
+#: mateweather/mateweather-pref.c:905
 msgid "kPa"
 msgstr "kPa"
 
-#: mateweather/mateweather-pref.c:909
+#: mateweather/mateweather-pref.c:907
 msgid "hPa"
 msgstr "hPa"
 
-#: mateweather/mateweather-pref.c:911
+#: mateweather/mateweather-pref.c:909
 msgid "mb"
 msgstr "mb"
 
-#: mateweather/mateweather-pref.c:913
+#: mateweather/mateweather-pref.c:911
 msgid "mmHg"
 msgstr "mmHg"
 
-#: mateweather/mateweather-pref.c:915
+#: mateweather/mateweather-pref.c:913
 msgid "inHg"
 msgstr "poHg"
 
-#: mateweather/mateweather-pref.c:917
+#: mateweather/mateweather-pref.c:915
 msgid "atm"
 msgstr "atm"
 
-#: mateweather/mateweather-pref.c:926
+#: mateweather/mateweather-pref.c:924
 msgid "_Visibility unit:"
 msgstr "Unitat de _visibilitat:"
 
-#: mateweather/mateweather-pref.c:937
+#: mateweather/mateweather-pref.c:935
 msgid "meters"
 msgstr "metres"
 
-#: mateweather/mateweather-pref.c:939
+#: mateweather/mateweather-pref.c:937
 msgid "km"
 msgstr "km"
 
-#: mateweather/mateweather-pref.c:941
+#: mateweather/mateweather-pref.c:939
 msgid "miles"
 msgstr "milles"
 
-#: mateweather/mateweather-pref.c:971
+#: mateweather/mateweather-pref.c:969
 msgid "Enable _radar map"
 msgstr "Habilita el mapa del _radar"
 
-#: mateweather/mateweather-pref.c:987
+#: mateweather/mateweather-pref.c:985
 msgid "Use _custom address for radar map"
 msgstr "Utilitza una adreça _personalitzada per al mapa del radar"
 
-#: mateweather/mateweather-pref.c:1005
+#: mateweather/mateweather-pref.c:1003
 msgid "A_ddress:"
 msgstr "A_dreça:"
 
-#: mateweather/mateweather-pref.c:1020
+#: mateweather/mateweather-pref.c:1018
 msgid "Show _notifications"
 msgstr "Mostra les _notificacions"
 
-#: mateweather/mateweather-pref.c:1030
+#: mateweather/mateweather-pref.c:1028
 msgid "Update"
 msgstr "Actualitza"
 
-#: mateweather/mateweather-pref.c:1047
+#: mateweather/mateweather-pref.c:1045
 msgid "minutes"
 msgstr "minuts"
 
-#: mateweather/mateweather-pref.c:1065
+#: mateweather/mateweather-pref.c:1063
 msgid "Display"
 msgstr "Pantalla"
 
-#: mateweather/mateweather-pref.c:1084
+#: mateweather/mateweather-pref.c:1082
 msgid "General"
 msgstr "General"
 
-#: mateweather/mateweather-pref.c:1095
+#: mateweather/mateweather-pref.c:1093
 msgid "_Select a location:"
 msgstr "_Seleccioneu una ubicació:"
 
-#: mateweather/mateweather-pref.c:1117
+#: mateweather/mateweather-pref.c:1115
 msgid "_Find:"
 msgstr "Cer_ca:"
 
-#: mateweather/mateweather-pref.c:1123
+#: mateweather/mateweather-pref.c:1121
 msgid "Find _Next"
 msgstr "Busca el següe_nt"
 
-#: mateweather/mateweather-pref.c:1144
+#: mateweather/mateweather-pref.c:1142
 msgid "Location"
 msgstr "Ubicació"
 
@@ -1305,8 +1320,7 @@ msgstr ""
 "Fes un seguiment de les condicions actuals i de les previsions "
 "meteorològiques"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: mateweather/org.mate.applets.MateWeatherApplet.mate-panel-applet.desktop.in.in:12
 msgid "weather-storm"
 msgstr ""
@@ -1327,43 +1341,42 @@ msgid ""
 "space use, plus network traffic."
 msgstr ""
 "Un monitor de la càrrega del sistema que pot mostrar gràfiques d'ús de cada "
-"processador, memòria, i espai d'intercanvi usats, a més del trànsit de "
-"xarxa."
+"processador, memòria, i espai d'intercanvi usats, a més del trànsit de xarxa."
 
-#: multiload/main.c:129
+#: multiload/main.c:127
 msgid "Start system-monitor"
 msgstr "Inicia el system-monitor"
 
-#: multiload/main.c:151
+#: multiload/main.c:149
 #, c-format
 msgid "There was an error executing '%s': %s"
 msgstr "S'ha produït un error en executar «%s»: %s"
 
-#: multiload/main.c:279 multiload/properties.c:643
+#: multiload/main.c:276 multiload/properties.c:643
 msgid "Processor"
 msgstr "Processador"
 
-#: multiload/main.c:281 multiload/properties.c:651
+#: multiload/main.c:278 multiload/properties.c:651
 msgid "Memory"
 msgstr "Memòria"
 
-#: multiload/main.c:283 multiload/properties.c:659
+#: multiload/main.c:280 multiload/properties.c:659
 msgid "Network"
 msgstr "Xarxa"
 
-#: multiload/main.c:285 multiload/properties.c:668
+#: multiload/main.c:282 multiload/properties.c:668
 msgid "Swap Space"
 msgstr "Espai d'intercanvi"
 
-#: multiload/main.c:287 multiload/main.c:366
+#: multiload/main.c:284 multiload/main.c:363
 msgid "Load Average"
 msgstr "Càrrega mitjana"
 
-#: multiload/main.c:289
+#: multiload/main.c:286
 msgid "Disk"
 msgstr "Disc"
 
-#: multiload/main.c:305
+#: multiload/main.c:302
 #, c-format
 msgid ""
 "%s:\n"
@@ -1374,12 +1387,12 @@ msgstr ""
 "%u%% en ús per programes\n"
 "%u%% és a la memòria cau"
 
-#: multiload/main.c:313
+#: multiload/main.c:310
 #, c-format
 msgid "The system load average is %0.02f"
 msgstr "La càrrega mitjana del sistema és %0.02f"
 
-#: multiload/main.c:321
+#: multiload/main.c:318
 #, c-format
 msgid ""
 "%s:\n"
@@ -1390,7 +1403,7 @@ msgstr ""
 "S'està rebent %s\n"
 "S'està enviant %s"
 
-#: multiload/main.c:337
+#: multiload/main.c:334
 #, c-format
 msgid ""
 "%s:\n"
@@ -1405,31 +1418,31 @@ msgstr[1] ""
 "%s:\n"
 "%u%% es ús"
 
-#: multiload/main.c:362
+#: multiload/main.c:359
 msgid "CPU Load"
 msgstr "Càrrega de la CPU"
 
-#: multiload/main.c:363
+#: multiload/main.c:360
 msgid "Memory Load"
 msgstr "Càrrega de la memòria"
 
-#: multiload/main.c:364
+#: multiload/main.c:361
 msgid "Net Load"
 msgstr "Càrrega de la xarxa"
 
-#: multiload/main.c:365
+#: multiload/main.c:362
 msgid "Swap Load"
 msgstr "Càrrega de la memòria d'intercanvi"
 
-#: multiload/main.c:367
+#: multiload/main.c:364
 msgid "Disk Load"
 msgstr "Càrrega del disc"
 
-#: multiload/main.c:485
+#: multiload/main.c:482
 msgid "_Open System Monitor"
 msgstr "_Obri el monitor del sistema"
 
-#: multiload/main.c:517
+#: multiload/main.c:514
 #: multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:9
 msgid "System Monitor"
 msgstr "Monitor del sistema"
@@ -1451,8 +1464,7 @@ msgstr ""
 msgid "A system load indicator"
 msgstr "Un indicador de la càrrega del sistema"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: multiload/org.mate.applets.MultiLoadApplet.mate-panel-applet.desktop.in.in:12
 msgid "utilities-system-monitor"
 msgstr ""
@@ -1505,8 +1517,7 @@ msgstr ""
 #: multiload/org.mate.panel.applet.multiload.gschema.xml.in:42
 msgid "Graph color for system-related CPU activity"
 msgstr ""
-"El color de la gràfica per a l'activitat de la CPU relacionada amb el "
-"sistema"
+"El color de la gràfica per a l'activitat de la CPU relacionada amb el sistema"
 
 #: multiload/org.mate.panel.applet.multiload.gschema.xml.in:46
 msgid "Graph color for nice-related CPU activity"
@@ -1778,7 +1789,7 @@ msgid "Threshold 1: "
 msgstr "Llindar 1: "
 
 #: multiload/properties.c:745 multiload/properties.c:780
-#: multiload/properties.c:815 netspeed/src/netspeed.c:432
+#: multiload/properties.c:815 netspeed/src/netspeed.c:425
 msgid "bytes"
 msgstr "bytes"
 
@@ -1844,8 +1855,7 @@ msgstr "Canvia la icona"
 #: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:31
 msgid "If true, change the icon due to selected device."
 msgstr ""
-"Si s'estableix a cert, es canvia la icona a causa del dispositiu "
-"seleccionat."
+"Si s'estableix a cert, es canvia la icona a causa del dispositiu seleccionat."
 
 #: netspeed/data/org.mate.panel.applet.netspeed.gschema.xml.in:35
 msgid "Auto change device"
@@ -1911,81 +1921,80 @@ msgstr "Miniaplicació Netspeed"
 msgid "Network Monitor"
 msgstr "Monitor de xarxa"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: netspeed/data/org.mate.applets.NetspeedApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-netspeed-applet"
 msgstr ""
 
-#: netspeed/src/netspeed.c:427
+#: netspeed/src/netspeed.c:420
 msgid "b"
 msgstr "b"
 
-#: netspeed/src/netspeed.c:427
+#: netspeed/src/netspeed.c:420
 msgid "B"
 msgstr "B"
 
-#: netspeed/src/netspeed.c:429
+#: netspeed/src/netspeed.c:422
 msgid "b/s"
 msgstr "b/s"
 
-#: netspeed/src/netspeed.c:429
+#: netspeed/src/netspeed.c:422
 msgid "B/s"
 msgstr "B/s"
 
-#: netspeed/src/netspeed.c:432
+#: netspeed/src/netspeed.c:425
 msgid "bits"
 msgstr "bits"
 
-#: netspeed/src/netspeed.c:440
+#: netspeed/src/netspeed.c:433
 msgid "k"
 msgstr "k"
 
-#: netspeed/src/netspeed.c:440
+#: netspeed/src/netspeed.c:433
 msgid "K"
 msgstr "K"
 
-#: netspeed/src/netspeed.c:442
+#: netspeed/src/netspeed.c:435
 msgid "kb/s"
 msgstr "kb/s"
 
-#: netspeed/src/netspeed.c:442
+#: netspeed/src/netspeed.c:435
 msgid "KiB/s"
 msgstr "KiB/s"
 
-#: netspeed/src/netspeed.c:445
+#: netspeed/src/netspeed.c:438
 msgid "kb"
 msgstr "kb"
 
-#: netspeed/src/netspeed.c:445
+#: netspeed/src/netspeed.c:438
 msgid "KiB"
 msgstr "KiB"
 
-#: netspeed/src/netspeed.c:455
+#: netspeed/src/netspeed.c:448
 msgid "m"
 msgstr "m"
 
-#: netspeed/src/netspeed.c:455
+#: netspeed/src/netspeed.c:448
 msgid "M"
 msgstr "M"
 
-#: netspeed/src/netspeed.c:457
+#: netspeed/src/netspeed.c:450
 msgid "Mb/s"
 msgstr "Mb/s"
 
-#: netspeed/src/netspeed.c:457
+#: netspeed/src/netspeed.c:450
 msgid "MiB/s"
 msgstr "MiB/s"
 
-#: netspeed/src/netspeed.c:460
+#: netspeed/src/netspeed.c:453
 msgid "Mb"
 msgstr "Mb"
 
-#: netspeed/src/netspeed.c:460
+#: netspeed/src/netspeed.c:453
 msgid "MiB"
 msgstr "MiB"
 
-#: netspeed/src/netspeed.c:784
+#: netspeed/src/netspeed.c:776
 #, c-format
 msgid ""
 "There was an error displaying help:\n"
@@ -1994,18 +2003,18 @@ msgstr ""
 "S'ha produït un error en mostrar l'ajuda:\n"
 "%s"
 
-#: netspeed/src/netspeed.c:821
+#: netspeed/src/netspeed.c:813
 msgid "About MATE Netspeed"
 msgstr ""
 
-#: netspeed/src/netspeed.c:823
+#: netspeed/src/netspeed.c:815
 msgid ""
 "Copyright © 2002-2003 Jörgen Scheibengruber\n"
 "Copyright © 2011-2014 Stefano Karapetsas\n"
 "Copyright © 2015-2020 MATE developers"
 msgstr ""
 
-#: netspeed/src/netspeed.c:826
+#: netspeed/src/netspeed.c:818
 msgid ""
 "A little applet that displays some information on the traffic on the "
 "specified network device"
@@ -2013,128 +2022,79 @@ msgstr ""
 "Una miniaplicació que mostra informació del trànsit al dispositiu de xarxa "
 "especificat"
 
-#: netspeed/src/netspeed.c:987
-msgid "MATE Netspeed Preferences"
-msgstr ""
-
-#: netspeed/src/netspeed.c:1009
-msgid "General Settings"
-msgstr "Paràmetres generals"
-
-#: netspeed/src/netspeed.c:1031
-msgid "Network _device:"
-msgstr "_Dispositiu de xarxa:"
-
-#: netspeed/src/netspeed.c:1043
+#: netspeed/src/netspeed.c:973
 msgid "Default"
 msgstr "Predeterminat"
 
-#: netspeed/src/netspeed.c:1056
-msgid "Show _sum instead of in & out"
-msgstr "Mostra la _suma en lloc de l'entrada i l'eixida"
-
-#: netspeed/src/netspeed.c:1060
-msgid "Show _bits instead of bytes"
-msgstr "Mostra els _bits en lloc dels bytes"
-
-#: netspeed/src/netspeed.c:1064
-msgid "Shorten _unit legend"
-msgstr "Acurta la llegenda de la _unitat"
-
-#: netspeed/src/netspeed.c:1068
-msgid "_Change icon according to the selected device"
-msgstr "_Canvia la icona d'acord amb el dispositiu seleccionat"
-
-#: netspeed/src/netspeed.c:1072
-msgid "Show _icon"
-msgstr "Mostra la _icona"
-
-#: netspeed/src/netspeed.c:1076
-msgid "Show signal _quality icon for wireless devices"
-msgstr ""
-"Mostra la icona de la _qualitat del senyal per als dispositius sense fil"
-
-#: netspeed/src/netspeed.c:1194
+#: netspeed/src/netspeed.c:1089
 #, c-format
 msgid "Device Details for %s"
 msgstr "Detalls del dispositiu %s"
 
-#: netspeed/src/netspeed.c:1219
+#: netspeed/src/netspeed.c:1114
 msgid "_In graph color"
 msgstr "Color de la gràf_ica de l'entrada"
 
-#: netspeed/src/netspeed.c:1220
+#: netspeed/src/netspeed.c:1115
 msgid "_Out graph color"
 msgstr "Color de la gràfica de l'ei_xida"
 
-#: netspeed/src/netspeed.c:1236
+#: netspeed/src/netspeed.c:1131
 msgid "Internet Address:"
 msgstr "Adreça d'Internet:"
 
-#: netspeed/src/netspeed.c:1237
+#: netspeed/src/netspeed.c:1132
 msgid "Netmask:"
 msgstr "Màscara de xarxa:"
 
-#: netspeed/src/netspeed.c:1238
+#: netspeed/src/netspeed.c:1133
 msgid "Hardware Address:"
 msgstr "Adreça de maquinari:"
 
-#: netspeed/src/netspeed.c:1239
+#: netspeed/src/netspeed.c:1134
 msgid "P-t-P Address:"
 msgstr "Adreça P-t-P:"
 
-#: netspeed/src/netspeed.c:1240
+#: netspeed/src/netspeed.c:1135
 msgid "Bytes in:"
 msgstr "Bytes d'entrada:"
 
-#: netspeed/src/netspeed.c:1241
+#: netspeed/src/netspeed.c:1136
 msgid "Bytes out:"
 msgstr "Bytes d'eixida:"
 
-#: netspeed/src/netspeed.c:1243 netspeed/src/netspeed.c:1244
-#: netspeed/src/netspeed.c:1245 netspeed/src/netspeed.c:1246
+#: netspeed/src/netspeed.c:1138 netspeed/src/netspeed.c:1139
+#: netspeed/src/netspeed.c:1140 netspeed/src/netspeed.c:1141
 msgid "none"
 msgstr "cap"
 
-#: netspeed/src/netspeed.c:1297
+#: netspeed/src/netspeed.c:1192
 msgid "IPV6 Address:"
 msgstr "Adreça IPV6:"
 
-#: netspeed/src/netspeed.c:1330
+#: netspeed/src/netspeed.c:1225
 msgid "Signal Strength:"
 msgstr "Fortalesa del senyal:"
 
-#: netspeed/src/netspeed.c:1331
+#: netspeed/src/netspeed.c:1226
 msgid "ESSID:"
 msgstr "ESSID:"
 
-#: netspeed/src/netspeed.c:1372
+#: netspeed/src/netspeed.c:1267
 msgid "Device _Details"
 msgstr "_Detalls del dispositiu"
 
-#: netspeed/src/netspeed.c:1374
-msgid "Preferences..."
-msgstr "Preferències..."
-
-#: netspeed/src/netspeed.c:1376
-msgid "Help"
-msgstr "Ajuda"
-
-#: netspeed/src/netspeed.c:1378
-msgid "About..."
-msgstr "Quant a..."
-
-#: netspeed/src/netspeed.c:1419
+#: netspeed/src/netspeed.c:1314
 #, c-format
 msgid "Do you want to disconnect %s now?"
 msgstr "Voleu desconnectar %s ara?"
 
-#: netspeed/src/netspeed.c:1423
+#: netspeed/src/netspeed.c:1318
 #, c-format
 msgid "Do you want to connect %s now?"
 msgstr "Voleu connectar %s ara?"
 
-#: netspeed/src/netspeed.c:1450
+#: netspeed/src/netspeed.c:1345
 #, c-format
 msgid ""
 "<b>Running command %s failed</b>\n"
@@ -2143,12 +2103,12 @@ msgstr ""
 "<b>Ha fallat l'execució de l'ordre %s</b>\n"
 "%s"
 
-#: netspeed/src/netspeed.c:1509
+#: netspeed/src/netspeed.c:1404
 #, c-format
 msgid "%s is down"
 msgstr "%s està caigut"
 
-#: netspeed/src/netspeed.c:1514
+#: netspeed/src/netspeed.c:1409
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -2157,11 +2117,11 @@ msgstr ""
 "%s: %s\n"
 "entrada: %s eixida: %s"
 
-#: netspeed/src/netspeed.c:1516 netspeed/src/netspeed.c:1525
+#: netspeed/src/netspeed.c:1411 netspeed/src/netspeed.c:1420
 msgid "has no ip"
 msgstr "no té IP"
 
-#: netspeed/src/netspeed.c:1523
+#: netspeed/src/netspeed.c:1418
 #, c-format
 msgid ""
 "%s: %s\n"
@@ -2170,7 +2130,7 @@ msgstr ""
 "%s: %s\n"
 "suma: %s"
 
-#: netspeed/src/netspeed.c:1532
+#: netspeed/src/netspeed.c:1427
 #, c-format
 msgid ""
 "\n"
@@ -2181,13 +2141,50 @@ msgstr ""
 "ESSID: %s\n"
 "Fortalesa: %d %%"
 
-#: netspeed/src/netspeed.c:1533
+#: netspeed/src/netspeed.c:1428
 msgid "unknown"
 msgstr "desconeguda"
 
-#: netspeed/src/netspeed.c:1584
+#: netspeed/src/netspeed.c:1478
 msgid "MATE Netspeed"
 msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:18
+msgid "MATE Netspeed Preferences"
+msgstr ""
+
+#: netspeed/src/netspeed-preferences.ui:100
+msgid "Network _device:"
+msgstr "_Dispositiu de xarxa:"
+
+#: netspeed/src/netspeed-preferences.ui:131
+msgid "Show _sum instead of in & out"
+msgstr "Mostra la _suma en lloc de l'entrada i l'eixida"
+
+#: netspeed/src/netspeed-preferences.ui:148
+msgid "Show _bits instead of bytes"
+msgstr "Mostra els _bits en lloc dels bytes"
+
+#: netspeed/src/netspeed-preferences.ui:165
+msgid "Shorten _unit legend"
+msgstr "Acurta la llegenda de la _unitat"
+
+#: netspeed/src/netspeed-preferences.ui:182
+msgid "_Change icon according to the selected device"
+msgstr "_Canvia la icona d'acord amb el dispositiu seleccionat"
+
+#: netspeed/src/netspeed-preferences.ui:199
+msgid "Show _icon"
+msgstr "Mostra la _icona"
+
+#: netspeed/src/netspeed-preferences.ui:216
+msgid "Show signal _quality icon for wireless devices"
+msgstr ""
+"Mostra la icona de la _qualitat del senyal per als dispositius sense fil"
+
+#: netspeed/src/netspeed-preferences.ui:240
+msgid "General Settings"
+msgstr "Paràmetres generals"
 
 #: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:5
 #: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:6
@@ -2203,205 +2200,207 @@ msgstr "Notes adhesives"
 msgid "Create, view, and manage sticky notes on the desktop"
 msgstr "Crea, visualitza i gestiona notes adhesives a l'escriptori"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: stickynotes/org.mate.applets.StickyNotesApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-sticky-notes-applet"
 msgstr ""
 
-#: stickynotes/stickynotes.c:577
+#: stickynotes/stickynotes.c:578
 msgid "This note is locked."
 msgstr "Aquesta nota està bloquejada."
 
-#: stickynotes/stickynotes.c:581
+#: stickynotes/stickynotes.c:582
 msgid "This note is unlocked."
 msgstr "Aquesta nota està desbloquejada."
 
-#: stickynotes/stickynotes.ui:26 stickynotes/stickynotes_applet.c:34
-msgid "_New Note"
-msgstr "_Nota nova"
+#: stickynotes/sticky-notes-delete-all.ui:36
+#: stickynotes/sticky-notes-delete.ui:37
+msgid "_Cancel"
+msgstr ""
 
-#: stickynotes/stickynotes.ui:32
-msgid "_Delete Note..."
-msgstr "_Suprimeix la nota..."
+#: stickynotes/sticky-notes-delete-all.ui:53
+msgid "_Delete All"
+msgstr "_Suprimeix-les totes"
 
-#: stickynotes/stickynotes.ui:38
-msgid "_Lock Note"
-msgstr "B_loqueja la nota"
+#: stickynotes/sticky-notes-delete-all.ui:106
+msgid "Delete all sticky notes?"
+msgstr "Voleu suprimir totes les notes adhesives?"
 
-#: stickynotes/stickynotes.ui:44
-msgid "_Properties"
-msgstr "_Propietats"
+#: stickynotes/sticky-notes-delete-all.ui:123
+#: stickynotes/sticky-notes-delete.ui:124
+msgid "This cannot be undone."
+msgstr "Això no es pot desfer."
 
-#: stickynotes/stickynotes.ui:62
+#: stickynotes/sticky-notes-delete.ui:54
+#, fuzzy
+msgid "_Delete"
+msgstr "_Suprimeix-les totes"
+
+#: stickynotes/sticky-notes-delete.ui:107
+msgid "Delete this sticky note?"
+msgstr "Voleu suprimir aquesta nota adhesiva?"
+
+#: stickynotes/sticky-notes-note.ui:11
+msgid "Sticky Note"
+msgstr "Nota adhesiva"
+
+#: stickynotes/sticky-notes-note.ui:28
+msgid "Lock/Unlock note"
+msgstr "Bloqueja/desbloqueja la nota"
+
+#: stickynotes/sticky-notes-note.ui:66
+msgid "Delete note"
+msgstr "Suprimeix la nota"
+
+#: stickynotes/sticky-notes-note.ui:119 stickynotes/sticky-notes-note.ui:142
+msgid "Resize note"
+msgstr "Redimensiona la nota"
+
+#: stickynotes/sticky-notes-preferences.ui:32
 msgid "Sticky Notes Preferences"
 msgstr "Preferències de les notes adhesives"
 
-#: stickynotes/stickynotes.ui:82
+#: stickynotes/sticky-notes-preferences.ui:108
 msgid "Default Note Properties"
 msgstr "Propietats predeterminades de les notes"
 
-#: stickynotes/stickynotes.ui:119
-msgid "Choose a font to use for all sticky notes"
-msgstr "Seleccioneu un tipus de lletra per a utilitzar-lo en totes les notes"
+#: stickynotes/sticky-notes-preferences.ui:131
+msgid "_Width:"
+msgstr "_Amplària:"
 
-#: stickynotes/stickynotes.ui:120
-msgid "Pick a default sticky note font"
+#: stickynotes/sticky-notes-preferences.ui:144
+msgid "H_eight:"
+msgstr "Alçà_ria:"
+
+#: stickynotes/sticky-notes-preferences.ui:157
+msgid "Specify the default width (in pixels) of new notes"
+msgstr "Especifica l'amplària predeterminada (en píxels) de les notes noves"
+
+#: stickynotes/sticky-notes-preferences.ui:158
+msgid "1"
 msgstr ""
-"Seleccioneu un tipus de lletra predeterminat per a les notes adhesives"
 
-#: stickynotes/stickynotes.ui:139 stickynotes/stickynotes.ui:994
-msgid "_Font:"
-msgstr "_Tipus de lletra:"
+#: stickynotes/sticky-notes-preferences.ui:172
+msgid "Specify the default height (in pixels) of new notes"
+msgstr "Especifica l'alçària predeterminada (en píxels) de les notes noves"
 
-#: stickynotes/stickynotes.ui:153
-msgid "Use fo_nt from the system theme"
-msgstr "Utilitza el _tipus de lletra del tema del sistema"
+#: stickynotes/sticky-notes-preferences.ui:173
+msgid "0"
+msgstr ""
 
-#: stickynotes/stickynotes.ui:176
-msgid "Note C_olor:"
-msgstr "C_olor de la nota:"
+#: stickynotes/sticky-notes-preferences.ui:185
+msgid "Use co_lor from the system theme"
+msgstr "Utilitza el co_lor del tema del sistema"
 
-#: stickynotes/stickynotes.ui:197
+#: stickynotes/sticky-notes-preferences.ui:203
 msgid "Font Co_lor:"
 msgstr "Co_lor del tipus de lletra:"
 
-#: stickynotes/stickynotes.ui:230
+#: stickynotes/sticky-notes-preferences.ui:216
+msgid "Note C_olor:"
+msgstr "C_olor de la nota:"
+
+#: stickynotes/sticky-notes-preferences.ui:241
 msgid "Choose a base color to use for all sticky notes"
 msgstr ""
 "Selecciona un color base per a utilitzar-lo en totes les notes adhesives"
 
-#: stickynotes/stickynotes.ui:231
+#: stickynotes/sticky-notes-preferences.ui:242
 msgid "Pick a default sticky note color"
 msgstr "Seleccioneu un color predeterminat per a les notes adhesives"
 
-#: stickynotes/stickynotes.ui:243
-msgid "Use co_lor from the system theme"
-msgstr "Utilitza el co_lor del tema del sistema"
+#: stickynotes/sticky-notes-preferences.ui:251
+msgid "Use fo_nt from the system theme"
+msgstr "Utilitza el _tipus de lletra del tema del sistema"
 
-#: stickynotes/stickynotes.ui:262
-msgid "Specify the default height (in pixels) of new notes"
-msgstr "Especifica l'alçària predeterminada (en píxels) de les notes noves"
+#: stickynotes/sticky-notes-preferences.ui:269
+#: stickynotes/sticky-notes-properties.ui:226
+msgid "_Font:"
+msgstr "_Tipus de lletra:"
 
-#: stickynotes/stickynotes.ui:279
-msgid "Specify the default width (in pixels) of new notes"
-msgstr "Especifica l'amplària predeterminada (en píxels) de les notes noves"
+#: stickynotes/sticky-notes-preferences.ui:283
+msgid "Choose a font to use for all sticky notes"
+msgstr "Seleccioneu un tipus de lletra per a utilitzar-lo en totes les notes"
 
-#: stickynotes/stickynotes.ui:294
-msgid "H_eight:"
-msgstr "Alçà_ria:"
+#: stickynotes/sticky-notes-preferences.ui:285
+msgid "Pick a default sticky note font"
+msgstr "Seleccioneu un tipus de lletra predeterminat per a les notes adhesives"
 
-#: stickynotes/stickynotes.ui:309
-msgid "_Width:"
-msgstr "_Amplària:"
-
-#: stickynotes/stickynotes.ui:343
+#: stickynotes/sticky-notes-preferences.ui:316
 msgid "Behavior"
 msgstr "Comportament"
 
-#: stickynotes/stickynotes.ui:377
-msgid "Hide notes when the des_ktop is clicked on"
-msgstr "Oculta les notes en fer _clic a l'escriptori"
-
-#: stickynotes/stickynotes.ui:381
-msgid "Choose whether to hide all notes when selecting on the desktop"
-msgstr "Trieu si s'amaguen totes les notes quan se selecciona l'escriptori"
-
-#: stickynotes/stickynotes.ui:394
-msgid "Force _default color and font on notes"
-msgstr "Imposa el color i tipus de lletra pre_determinats a les notes"
-
-#: stickynotes/stickynotes.ui:398
-msgid "Choose if the default style is forced on all notes"
-msgstr "Seleccioneu si l'estil predeterminat s'imposa a totes les notes"
-
-#: stickynotes/stickynotes.ui:411
+#: stickynotes/sticky-notes-preferences.ui:337
 msgid "_Put notes on all workspaces"
 msgstr "_Posa les notes en tots els espais de treball"
 
-#: stickynotes/stickynotes.ui:415
+#: stickynotes/sticky-notes-preferences.ui:341
 msgid "Choose if notes are visible on all workspaces"
 msgstr "Seleccioneu si les notes estan visibles a tots els espais de treball"
 
-#: stickynotes/stickynotes.ui:540
-msgid "Delete this sticky note?"
-msgstr "Voleu suprimir aquesta nota adhesiva?"
+#: stickynotes/sticky-notes-preferences.ui:354
+msgid "Force _default color and font on notes"
+msgstr "Imposa el color i tipus de lletra pre_determinats a les notes"
 
-#: stickynotes/stickynotes.ui:555 stickynotes/stickynotes.ui:673
-msgid "This cannot be undone."
-msgstr "Això no es pot desfer."
+#: stickynotes/sticky-notes-preferences.ui:358
+msgid "Choose if the default style is forced on all notes"
+msgstr "Seleccioneu si l'estil predeterminat s'imposa a totes les notes"
 
-#: stickynotes/stickynotes.ui:658
-msgid "Delete all sticky notes?"
-msgstr "Voleu suprimir totes les notes adhesives?"
+#: stickynotes/sticky-notes-preferences.ui:371
+msgid "Hide notes when the des_ktop is clicked on"
+msgstr "Oculta les notes en fer _clic a l'escriptori"
 
-#: stickynotes/stickynotes.ui:741
-msgid "_Delete All"
-msgstr "_Suprimeix-les totes"
+#: stickynotes/sticky-notes-preferences.ui:375
+msgid "Choose whether to hide all notes when selecting on the desktop"
+msgstr "Trieu si s'amaguen totes les notes quan se selecciona l'escriptori"
 
-#: stickynotes/stickynotes.ui:779
-msgid "Sticky Note"
-msgstr "Nota adhesiva"
-
-#: stickynotes/stickynotes.ui:790
-msgid "Lock/Unlock note"
-msgstr "Bloqueja/desbloqueja la nota"
-
-#: stickynotes/stickynotes.ui:820
-msgid "Delete note"
-msgstr "Suprimeix la nota"
-
-#: stickynotes/stickynotes.ui:868 stickynotes/stickynotes.ui:887
-msgid "Resize note"
-msgstr "Redimensiona la nota"
-
-#: stickynotes/stickynotes.ui:917
+#: stickynotes/sticky-notes-properties.ui:18
 msgid "Sticky Note Properties"
 msgstr "Propietats de la nota adhesiva"
 
-#: stickynotes/stickynotes.ui:937
+#: stickynotes/sticky-notes-properties.ui:94
 msgid "Properties"
 msgstr "Propietats"
 
-#: stickynotes/stickynotes.ui:974
-msgid "Choose a font for the note"
-msgstr "Seleccioneu un tipus de lletra per a la nota"
+#: stickynotes/sticky-notes-properties.ui:117
+msgid "_Title:"
+msgstr "_Títol:"
 
-#: stickynotes/stickynotes.ui:975
-msgid "Pick a font for the sticky note"
-msgstr "Seleccioneu un tipus de lletra predeterminat per a la nota adhesiva"
-
-#: stickynotes/stickynotes.ui:1008
-msgid "Use default fo_nt"
-msgstr "Utilitza el _tipus de lletra predeterminat"
-
-#: stickynotes/stickynotes.ui:1028
-msgid "Choose a color for the note"
-msgstr "Seleccioneu un color per a la nota"
-
-#: stickynotes/stickynotes.ui:1029
-msgid "Pick a color for the sticky note"
-msgstr "Seleccioneu un color per a la nota adhesiva"
-
-#: stickynotes/stickynotes.ui:1048
-msgid "Note _Color:"
-msgstr "_Color de la nota:"
-
-#: stickynotes/stickynotes.ui:1083
-msgid "Font C_olor:"
-msgstr "C_olor del tipus de lletra:"
-
-#: stickynotes/stickynotes.ui:1097
-msgid "Use default co_lor"
-msgstr "Utilitza el co_lor predeterminat"
-
-#: stickynotes/stickynotes.ui:1115
+#: stickynotes/sticky-notes-properties.ui:130
 msgid "Specify a title for the note"
 msgstr "Especifica un títol per a la nota"
 
-#: stickynotes/stickynotes.ui:1127
-msgid "_Title:"
-msgstr "_Títol:"
+#: stickynotes/sticky-notes-properties.ui:139
+msgid "Use default co_lor"
+msgstr "Utilitza el co_lor predeterminat"
+
+#: stickynotes/sticky-notes-properties.ui:158
+msgid "Font C_olor:"
+msgstr "C_olor del tipus de lletra:"
+
+#: stickynotes/sticky-notes-properties.ui:172
+msgid "Note _Color:"
+msgstr "_Color de la nota:"
+
+#: stickynotes/sticky-notes-properties.ui:183
+msgid "Use default fo_nt"
+msgstr "Utilitza el _tipus de lletra predeterminat"
+
+#: stickynotes/sticky-notes-properties.ui:213
+msgid "Choose a color for the note"
+msgstr "Seleccioneu un color per a la nota"
+
+#: stickynotes/sticky-notes-properties.ui:214
+msgid "Pick a color for the sticky note"
+msgstr "Seleccioneu un color per a la nota adhesiva"
+
+#: stickynotes/sticky-notes-properties.ui:240
+msgid "Choose a font for the note"
+msgstr "Seleccioneu un tipus de lletra per a la nota"
+
+#: stickynotes/sticky-notes-properties.ui:242
+msgid "Pick a font for the sticky note"
+msgstr "Seleccioneu un tipus de lletra predeterminat per a la nota adhesiva"
 
 #: stickynotes/org.mate.stickynotes.gschema.xml.in:5
 msgid "Default width for new notes"
@@ -2548,6 +2547,10 @@ msgstr "Si s'ha de demanar confirmació quan se suprimeix una nota"
 msgid "Empty notes are always deleted without confirmation."
 msgstr "Les notes buides s'eliminen sempre sense confirmació."
 
+#: stickynotes/stickynotes_applet.c:34
+msgid "_New Note"
+msgstr "_Nota nova"
+
 #: stickynotes/stickynotes_applet.c:37
 msgid "Hi_de Notes"
 msgstr "_Oculta les notes"
@@ -2600,8 +2603,7 @@ msgstr "Temporitzador"
 msgid "Start a timer and receive a notification when it is finished"
 msgstr "Inicieu un temporitzador i rebeu una notificació quan finalitze"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: timerapplet/org.mate.applets.TimerApplet.mate-panel-applet.desktop.in.in:12
 msgid "mate-panel-clock"
 msgstr ""
@@ -2697,13 +2699,12 @@ msgstr "Paperera"
 msgid "Go to Trash"
 msgstr "Vés a la paperera"
 
-#. Translators: Do NOT translate or transliterate this text (this is an icon
-#. file name)!
+#. Translators: Do NOT translate or transliterate this text (this is an icon file name)!
 #: trashapplet/org.mate.applets.TrashApplet.mate-panel-applet.desktop.in.in:12
 msgid "user-trash-full"
 msgstr ""
 
-#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:352
+#: trashapplet/src/trashapplet.c:68 trashapplet/src/trash-empty.c:344
 msgid "_Empty Trash"
 msgstr "_Buida la paperera"
 
@@ -2772,28 +2773,28 @@ msgid "Trash Applet"
 msgstr "Miniaplicació de la paperera"
 
 #. Translators: the %s in this string should be read as %d.
-#: trashapplet/src/trash-empty.c:80
+#: trashapplet/src/trash-empty.c:72
 #, c-format
 msgid "Removing item %s of %s"
 msgstr "S'està suprimint l'element %s de %s"
 
 #. Translators: %s is a file name
-#: trashapplet/src/trash-empty.c:106
+#: trashapplet/src/trash-empty.c:98
 #, c-format
 msgid "Removing: %s"
 msgstr "S'està suprimint: %s"
 
-#: trashapplet/src/trash-empty.c:332
+#: trashapplet/src/trash-empty.c:324
 msgid "Empty all of the items from the trash?"
 msgstr "Voleu buidar tots els elements de la paperera?"
 
-#: trashapplet/src/trash-empty.c:339
+#: trashapplet/src/trash-empty.c:331
 msgid ""
 "If you choose to empty the trash, all items in it will be permanently lost. "
 "Please note that you can also delete them separately."
 msgstr ""
-"Si buideu la paperera, se'n perdran tots els elements per sempre. Tingueu en"
-" compte que també podeu eliminar-los separadament."
+"Si buideu la paperera, se'n perdran tots els elements per sempre. Tingueu en "
+"compte que també podeu eliminar-los separadament."
 
 #: trashapplet/trashapplet-empty-progress.ui:7
 #: trashapplet/trashapplet-empty-progress.ui:21
@@ -2803,3 +2804,29 @@ msgstr "S'està buidant la paperera"
 #: trashapplet/trashapplet-empty-progress.ui:36
 msgid "From:"
 msgstr "De:"
+
+#, fuzzy
+#~ msgid "Preferences"
+#~ msgstr "_Preferències"
+
+#~ msgid "Help"
+#~ msgstr "Ajuda"
+
+#, fuzzy
+#~ msgid "About"
+#~ msgstr "_Quant a"
+
+#~ msgid "Preferences..."
+#~ msgstr "Preferències..."
+
+#~ msgid "About..."
+#~ msgstr "Quant a..."
+
+#~ msgid "_Delete Note..."
+#~ msgstr "_Suprimeix la nota..."
+
+#~ msgid "_Lock Note"
+#~ msgstr "B_loqueja la nota"
+
+#~ msgid "_Properties"
+#~ msgstr "_Propietats"
