@@ -179,7 +179,7 @@ static void dialog_cb(GtkAction* action, AccessxStatusApplet* sapplet)
 }
 
 static const GtkActionEntry accessx_status_applet_menu_actions[] = {
-	{"Dialog", "document-properties", N_("_Keyboard Accessibility Preferences"), NULL, NULL, G_CALLBACK(dialog_cb)},
+	{"Dialog", "input-keyboard", N_("_Keyboard Accessibility Preferences"), NULL, NULL, G_CALLBACK(dialog_cb)},
 	{"Help", "help-browser", N_("_Help"), NULL, NULL, G_CALLBACK(help_cb)},
 	{"About", "help-about", N_("_About"), NULL, NULL, G_CALLBACK(about_cb)}
 };
